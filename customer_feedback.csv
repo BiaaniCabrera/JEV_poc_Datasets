@@ -1,0 +1,219 @@
+feedback_id,customer_id,created_at,feedback_text,feedback_source,rating
+FDB-00001,CUST-0001,2026-04-29,"Mixed feelings about search, some parts are great, others need work.",support_chat,3
+FDB-00002,CUST-0002,2026-05-19,"It's okay for now, two of our admins hasn't fully decided either way.",support_chat,3
+FDB-00003,CUST-0004,2026-07-14,Our support lead has basically stopped relying on notifications because of repeated problems.,nps_survey,2
+FDB-00004,CUST-0004,2026-05-25,"Frustrated that the reporting tool keeps breaking for a couple of hours now, no clear fix in sight.",email,2
+FDB-00005,CUST-0004,2026-07-09,"Getting tired of the constant issues with the reporting tool, considering alternatives.",nps_survey,1
+FDB-00006,CUST-0005,2026-07-11,"Support response time has gotten a lot worse lately, especially for the dashboard problems.",support_chat,1
+FDB-00007,CUST-0005,2026-07-13,"Getting tired of the constant issues with search, considering alternatives.",in_app_survey,2
+FDB-00008,CUST-0006,2026-06-09,Setup was straightforward and the admin console has been reliable since.,app_store_review,5
+FDB-00009,CUST-0006,2026-06-08,"The API has become a core part of our workflow, works well for just me so far.",nps_survey,4
+FDB-00010,CUST-0007,2026-06-29,"Search has become a core part of our workflow, works well for everyone on the Pro plan.",support_chat,4
+FDB-00011,CUST-0007,2026-06-17,Really happy with how easy the dashboard is to use day to day.,app_store_review,5
+FDB-00012,CUST-0008,2026-06-19,Our ops team has basically stopped relying on the calendar sync because of repeated problems.,email,1
+FDB-00013,CUST-0008,2026-06-24,We've had recurring issues with bulk editing and it's affecting our team's trust in the tool.,support_chat,2
+FDB-00014,CUST-0009,2026-07-01,We've had recurring issues with the dashboard and it's affecting our team's trust in the tool.,app_store_review,2
+FDB-00015,CUST-0009,2026-05-31,Starting to question whether this is still the right tool for everyone on the Pro plan.,support_chat,2
+FDB-00016,CUST-0010,2026-06-11,"Notifications has become a core part of our workflow, works well for our whole team.",email,5
+FDB-00017,CUST-0010,2026-05-26,Great support team — they resolved our issue with the API quickly.,app_store_review,4
+FDB-00018,CUST-0011,2026-06-02,"The collaboration workspace has become a core part of our workflow, works well for just me so far.",support_chat,4
+FDB-00019,CUST-0012,2026-06-21,"Frustrated that the Slack integration keeps breaking this week, no clear fix in sight.",email,2
+FDB-00020,CUST-0012,2026-07-08,,support_chat,1
+FDB-00021,CUST-0012,2026-06-10,Starting to question whether this is still the right tool for a few of us.,email,1
+FDB-00022,CUST-0013,2026-06-11,Starting to question whether this is still the right tool for just me so far.,email,2
+FDB-00023,CUST-0013,2026-06-25,"Support response time has gotten a lot worse lately, especially for search problems.",in_app_survey,1
+FDB-00024,CUST-0013,2026-06-05,"Support response time has gotten a lot worse lately, especially for the Slack integration problems.",nps_survey,2
+FDB-00025,CUST-0019,2026-05-18,"It's okay for now, just me so far hasn't fully decided either way.",in_app_survey,3
+FDB-00026,CUST-0019,2026-06-23,"The reporting tool does what it needs to, nothing more to say really.",nps_survey,3
+FDB-00027,CUST-0019,2026-06-05,"Hard to say, depends on the day honestly, especially with the admin console.",app_store_review,3
+FDB-00028,CUST-0020,2026-04-26,Great support team — they resolved our issue with the calendar sync quickly.,email,4
+FDB-00029,CUST-0022,2026-06-07,"Whoever worked on the Slack integration recently did a great job, noticeably better.",app_store_review,4
+FDB-00030,CUST-0024,2026-05-07,"Getting tired of the constant issues with the API, considering alternatives.",email,2
+FDB-00031,CUST-0025,2026-05-30,Setup was straightforward and the calendar sync has been reliable since.,support_chat,4
+FDB-00032,CUST-0025,2026-06-25,"Bulk editing has become a core part of our workflow, works well for most of the account.",nps_survey,5
+FDB-00033,CUST-0025,2026-05-08,"Data export has become a core part of our workflow, works well for a few of us.",nps_survey,4
+FDB-00034,CUST-0026,2026-05-18,"The Slack integration has become a core part of our workflow, works well for our whole team.",email,5
+FDB-00035,CUST-0026,2026-05-25,Setup was straightforward and search has been reliable since.,app_store_review,5
+FDB-00036,CUST-0027,2026-04-25,"Data export does what it needs to, nothing more to say really.",support_chat,3
+FDB-00037,CUST-0027,2026-05-22,"It's okay for now, our support lead hasn't fully decided either way.",in_app_survey,3
+FDB-00038,CUST-0028,2026-06-05,"Whoever worked on the API recently did a great job, noticeably better.",support_chat,4
+FDB-00039,CUST-0030,2026-05-10,"Whoever worked on notifications recently did a great job, noticeably better.",support_chat,4
+FDB-00040,CUST-0030,2026-05-31,Setup was straightforward and the dashboard has been reliable since.,app_store_review,5
+FDB-00041,CUST-0031,2026-05-18,"Not bad, not amazing. We'll see how two of our admins feels in a few months.",support_chat,3
+FDB-00042,CUST-0031,2026-07-02,"Mixed feelings about search, some parts are great, others need work.",nps_survey,3
+FDB-00043,CUST-0032,2026-05-28,"Mixed feelings about the Slack integration, some parts are great, others need work.",in_app_survey,3
+FDB-00044,CUST-0032,2026-06-20,"The admin console does what it needs to, nothing more to say really.",support_chat,3
+FDB-00045,CUST-0032,2026-06-19,"Not bad, not amazing. We'll see how a few of us feels in a few months.",email,3
+FDB-00046,CUST-0034,2026-05-21,"Not bad, not amazing. We'll see how everyone on the Pro plan feels in a few months.",email,3
+FDB-00047,CUST-0034,2026-06-09,"Notifications does what it needs to, nothing more to say really.",email,3
+FDB-00048,CUST-0035,2026-06-15,Two of our admins has basically stopped relying on the calendar sync because of repeated problems.,in_app_survey,1
+FDB-00049,CUST-0035,2026-07-07,"Frustrated that bulk editing keeps breaking since the latest update, no clear fix in sight.",app_store_review,1
+FDB-00050,CUST-0036,2026-06-19,"Our ops team has had a smooth experience overall, especially with bulk editing.",nps_survey,5
+FDB-00051,CUST-0037,2026-06-09,Most of the account has basically stopped relying on notifications because of repeated problems.,email,1
+FDB-00052,CUST-0037,2026-05-26,We've had recurring issues with the calendar sync and it's affecting our team's trust in the tool.,email,1
+FDB-00053,CUST-0037,2026-06-12,"Frustrated that data export keeps breaking since Monday, no clear fix in sight.",in_app_survey,1
+FDB-00054,CUST-0039,2026-07-01,"It's okay for now, just me so far hasn't fully decided either way.",app_store_review,3
+FDB-00055,CUST-0039,2026-05-20,"Mixed feelings about the API, some parts are great, others need work.",support_chat,3
+FDB-00056,CUST-0039,2026-05-06,"It's okay for now, two of our admins hasn't fully decided either way.",in_app_survey,3
+FDB-00057,CUST-0039,2026-05-05,"Bulk editing does what it needs to, nothing more to say really.",support_chat,3
+FDB-00058,CUST-0040,2026-05-06,"It's okay for now, most of the account hasn't fully decided either way.",nps_survey,3
+FDB-00059,CUST-0040,2026-04-22,"The calendar sync is fine, though we haven't explored everything it offers yet.",app_store_review,3
+FDB-00060,CUST-0040,2026-05-01,"The reporting tool does what it needs to, nothing more to say really.",app_store_review,3
+FDB-00061,CUST-0040,2026-05-08,"The dashboard does what it needs to, nothing more to say really.",support_chat,3
+FDB-00062,CUST-0042,2026-06-03,Really happy with how easy the dashboard is to use day to day.,support_chat,5
+FDB-00063,CUST-0044,2026-06-25,Really happy with how easy the Slack integration is to use day to day.,in_app_survey,5
+FDB-00064,CUST-0044,2026-05-22,Really happy with how easy the admin console is to use day to day.,email,5
+FDB-00065,CUST-0044,2026-07-08,Great support team — they resolved our issue with bulk editing quickly.,support_chat,4
+FDB-00066,CUST-0045,2026-06-25,Setup was straightforward and data export has been reliable since.,support_chat,5
+FDB-00067,CUST-0045,2026-06-30,"Bulk editing has become a core part of our workflow, works well for a few of us.",app_store_review,4
+FDB-00068,CUST-0046,2026-04-18,We've had recurring issues with the collaboration workspace and it's affecting our team's trust in the tool.,email,2
+FDB-00069,CUST-0048,2026-06-30,"Hard to say, depends on the day honestly, especially with the mobile app.",in_app_survey,3
+FDB-00070,CUST-0048,2026-07-13,"The collaboration workspace does what it needs to, nothing more to say really.",support_chat,3
+FDB-00071,CUST-0049,2026-04-25,Really happy with how easy bulk editing is to use day to day.,in_app_survey,5
+FDB-00072,CUST-0049,2026-07-15,Really happy with how easy the admin console is to use day to day.,support_chat,4
+FDB-00073,CUST-0049,2026-06-24,"The reporting tool has become a core part of our workflow, works well for just me so far.",nps_survey,5
+FDB-00074,CUST-0050,2026-06-21,"Everyone on the Pro plan has had a smooth experience overall, especially with the dashboard.",support_chat,4
+FDB-00075,CUST-0050,2026-06-08,"Our ops team has had a smooth experience overall, especially with the API.",support_chat,4
+FDB-00076,CUST-0052,2026-06-27,"Just me so far has had a smooth experience overall, especially with the calendar sync.",nps_survey,5
+FDB-00077,CUST-0053,2026-04-17,"Just me so far has had a smooth experience overall, especially with the API.",support_chat,4
+FDB-00078,CUST-0054,2026-07-12,Setup was straightforward and bulk editing has been reliable since.,email,4
+FDB-00079,CUST-0056,2026-06-30,Impressed with the recent improvements to data export.,nps_survey,4
+FDB-00080,CUST-0058,2026-06-03,Really happy with how easy the admin console is to use day to day.,in_app_survey,4
+FDB-00081,CUST-0059,2026-07-14,"Whoever worked on search recently did a great job, noticeably better.",support_chat,4
+FDB-00082,CUST-0060,2026-04-26,"Everyone on the Pro plan has had a smooth experience overall, especially with the dashboard.",support_chat,4
+FDB-00083,CUST-0061,2026-06-20,"The reporting tool has become a core part of our workflow, works well for our support lead.",email,5
+FDB-00084,CUST-0061,2026-07-15,Really happy with how easy bulk editing is to use day to day.,support_chat,5
+FDB-00085,CUST-0061,2026-07-02,Great support team — they resolved our issue with the reporting tool quickly.,email,4
+FDB-00086,CUST-0061,2026-04-27,"Just me so far has had a smooth experience overall, especially with the admin console.",email,5
+FDB-00087,CUST-0062,2026-05-04,"Everyone on the Pro plan has had a smooth experience overall, especially with the mobile app.",support_chat,4
+FDB-00088,CUST-0063,2026-07-15,"The admin console has become a core part of our workflow, works well for everyone on the Pro plan.",in_app_survey,4
+FDB-00089,CUST-0064,2026-05-30,"The Slack integration is fine, though we haven't explored everything it offers yet.",in_app_survey,3
+FDB-00090,CUST-0064,2026-05-26,"Hard to say, depends on the day honestly, especially with notifications.",nps_survey,3
+FDB-00091,CUST-0065,2026-06-01,Impressed with the recent improvements to the dashboard.,support_chat,4
+FDB-00092,CUST-0065,2026-05-14,Setup was straightforward and search has been reliable since.,support_chat,4
+FDB-00093,CUST-0065,2026-05-07,Great support team — they resolved our issue with data export quickly.,nps_survey,4
+FDB-00094,CUST-0066,2026-06-26,"Our ops team has had a smooth experience overall, especially with search.",in_app_survey,4
+FDB-00095,CUST-0067,2026-07-08,"Whoever worked on notifications recently did a great job, noticeably better.",support_chat,5
+FDB-00096,CUST-0067,2026-05-16,Really happy with how easy data export is to use day to day.,nps_survey,5
+FDB-00097,CUST-0068,2026-06-02,"The mobile app does what it needs to, nothing more to say really.",email,3
+FDB-00098,CUST-0069,2026-07-07,"The dashboard is fine, though we haven't explored everything it offers yet.",nps_survey,3
+FDB-00099,CUST-0069,2026-06-02,"The calendar sync does what it needs to, nothing more to say really.",in_app_survey,3
+FDB-00100,CUST-0071,2026-07-09,"Search does what it needs to, nothing more to say really.",in_app_survey,3
+FDB-00101,CUST-0072,2026-04-21,"Frustrated that search keeps breaking on and off for a week, no clear fix in sight.",nps_survey,1
+FDB-00102,CUST-0072,2026-05-03,"Support response time has gotten a lot worse lately, especially for the dashboard problems.",support_chat,1
+FDB-00103,CUST-0074,2026-07-12,"Getting tired of the constant issues with the dashboard, considering alternatives.",nps_survey,1
+FDB-00104,CUST-0075,2026-05-25,Everyone on the Pro plan has basically stopped relying on the admin console because of repeated problems.,app_store_review,1
+FDB-00105,CUST-0076,2026-06-21,"Hard to say, depends on the day honestly, especially with the collaboration workspace.",email,3
+FDB-00106,CUST-0076,2026-05-02,"It's okay for now, our ops team hasn't fully decided either way.",in_app_survey,3
+FDB-00107,CUST-0076,2026-06-07,"The reporting tool is fine, though we haven't explored everything it offers yet.",app_store_review,3
+FDB-00108,CUST-0077,2026-06-23,"The API does what it needs to, nothing more to say really.",email,3
+FDB-00109,CUST-0077,2026-05-28,"Data export does what it needs to, nothing more to say really.",nps_survey,3
+FDB-00110,CUST-0079,2026-07-12,Great support team — they resolved our issue with the reporting tool quickly.,email,4
+FDB-00111,CUST-0080,2026-06-22,"Whoever worked on the API recently did a great job, noticeably better.",nps_survey,5
+FDB-00112,CUST-0080,2026-04-23,Impressed with the recent improvements to the Slack integration.,support_chat,5
+FDB-00113,CUST-0081,2026-06-25,Great support team — they resolved our issue with the admin console quickly.,nps_survey,4
+FDB-00114,CUST-0082,2026-05-08,"The API has become a core part of our workflow, works well for just me so far.",app_store_review,5
+FDB-00115,CUST-0082,2026-06-24,Really happy with how easy search is to use day to day.,support_chat,5
+FDB-00116,CUST-0086,2026-07-15,"The collaboration workspace does what it needs to, nothing more to say really.",nps_survey,3
+FDB-00117,CUST-0088,2026-04-26,"The collaboration workspace has become a core part of our workflow, works well for most of the account.",in_app_survey,4
+FDB-00118,CUST-0089,2026-06-24,Search feels less reliable than it used to for a few of us.,email,2
+FDB-00119,CUST-0089,2026-04-19,"Frustrated that the calendar sync keeps breaking since the latest update, no clear fix in sight.",in_app_survey,1
+FDB-00120,CUST-0091,2026-06-14,"It's okay for now, a few of us hasn't fully decided either way.",in_app_survey,3
+FDB-00121,CUST-0094,2026-05-23,Setup was straightforward and the mobile app has been reliable since.,app_store_review,4
+FDB-00122,CUST-0094,2026-07-06,Really happy with how easy the collaboration workspace is to use day to day.,email,5
+FDB-00123,CUST-0095,2026-04-26,"Frustrated that data export keeps breaking this week, no clear fix in sight.",app_store_review,1
+FDB-00124,CUST-0096,2026-05-26,"Whoever worked on the calendar sync recently did a great job, noticeably better.",app_store_review,4
+FDB-00125,CUST-0098,2026-07-14,"The reporting tool does what it needs to, nothing more to say really.",email,3
+FDB-00126,CUST-0098,2026-05-13,"Data export is fine, though we haven't explored everything it offers yet.",email,3
+FDB-00127,CUST-0098,2026-06-11,"The calendar sync is fine, though we haven't explored everything it offers yet.",support_chat,3
+FDB-00128,CUST-0098,2026-05-22,"The mobile app does what it needs to, nothing more to say really.",app_store_review,3
+FDB-00129,CUST-0099,2026-06-14,"It's okay for now, our whole team hasn't fully decided either way.",nps_survey,3
+FDB-00130,CUST-0100,2026-07-07,"Getting tired of the constant issues with the API, considering alternatives.",support_chat,1
+FDB-00131,CUST-0100,2026-05-22,"Frustrated that the calendar sync keeps breaking this morning, no clear fix in sight.",app_store_review,1
+FDB-00132,CUST-0100,2026-07-13,Our whole team has basically stopped relying on the reporting tool because of repeated problems.,app_store_review,2
+FDB-00133,CUST-0101,2026-05-13,"Hard to say, depends on the day honestly, especially with the dashboard.",in_app_survey,3
+FDB-00134,CUST-0102,2026-07-05,"Two of our admins has had a smooth experience overall, especially with the reporting tool.",nps_survey,4
+FDB-00135,CUST-0102,2026-05-31,"The API has become a core part of our workflow, works well for everyone on the Pro plan.",app_store_review,5
+FDB-00136,CUST-0102,2026-04-21,"The collaboration workspace has become a core part of our workflow, works well for a few of us.",support_chat,4
+FDB-00137,CUST-0103,2026-06-27,"It's okay for now, our whole team hasn't fully decided either way.",nps_survey,3
+FDB-00138,CUST-0104,2026-06-25,Really happy with how easy the reporting tool is to use day to day.,email,5
+FDB-00139,CUST-0106,2026-07-14,Great support team — they resolved our issue with the mobile app quickly.,app_store_review,4
+FDB-00140,CUST-0106,2026-06-27,"Whoever worked on the Slack integration recently did a great job, noticeably better.",app_store_review,8
+FDB-00141,CUST-0106,2026-04-18,Really happy with how easy the collaboration workspace is to use day to day.,app_store_review,5
+FDB-00142,CUST-0108,2026-04-17,Great support team — they resolved our issue with data export quickly.,support_chat,4
+FDB-00143,CUST-0109,2026-06-03,"The Slack integration has become a core part of our workflow, works well for most of the account.",email,4
+FDB-00144,CUST-0110,2026-06-23,"Data export has become a core part of our workflow, works well for our whole team.",app_store_review,4
+FDB-00145,CUST-0110,2026-05-14,"Search has become a core part of our workflow, works well for a few of us.",in_app_survey,4
+FDB-00146,CUST-0111,2026-07-07,We've had recurring issues with bulk editing and it's affecting our team's trust in the tool.,in_app_survey,1
+FDB-00147,CUST-0111,2026-07-06,Starting to question whether this is still the right tool for just me so far.,app_store_review,2
+FDB-00148,CUST-0111,2026-04-17,"Support response time has gotten a lot worse lately, especially for the reporting tool problems.",support_chat,2
+FDB-00149,CUST-0112,2026-05-03,"Our ops team has had a smooth experience overall, especially with the dashboard.",email,5
+FDB-00150,CUST-0112,2026-06-27,"Our support lead has had a smooth experience overall, especially with notifications.",in_app_survey,4
+FDB-00151,CUST-0112,2026-05-07,"Just me so far has had a smooth experience overall, especially with the admin console.",support_chat,4
+FDB-00152,CUST-0113,2026-05-16,Impressed with the recent improvements to bulk editing.,support_chat,4
+FDB-00153,CUST-0113,2026-06-02,"Notifications has become a core part of our workflow, works well for most of the account.",support_chat,5
+FDB-00154,CUST-0114,2026-04-19,"The calendar sync is fine, though we haven't explored everything it offers yet.",support_chat,3
+FDB-00155,CUST-0115,2026-05-30,"Whoever worked on data export recently did a great job, noticeably better.",app_store_review,4
+FDB-00156,CUST-0115,2026-05-10,Impressed with the recent improvements to the admin console.,in_app_survey,4
+FDB-00157,CUST-0115,2026-05-31,"Our support lead has had a smooth experience overall, especially with the reporting tool.",nps_survey,5
+FDB-00158,CUST-0117,2026-04-29,"Whoever worked on the reporting tool recently did a great job, noticeably better.",email,5
+FDB-00159,CUST-0117,2026-06-25,"Everyone on the Pro plan has had a smooth experience overall, especially with the reporting tool.",support_chat,5
+FDB-00160,CUST-0118,2026-07-13,Really happy with how easy the collaboration workspace is to use day to day.,app_store_review,5
+FDB-00161,CUST-0118,2026-06-16,"Two of our admins has had a smooth experience overall, especially with the admin console.",nps_survey,5
+FDB-00162,CUST-0119,2026-06-20,"It's okay for now, most of the account hasn't fully decided either way.",email,3
+FDB-00163,CUST-0120,2026-05-25,"Whoever worked on the dashboard recently did a great job, noticeably better.",app_store_review,4
+FDB-00164,CUST-0121,2026-06-16,"Support response time has gotten a lot worse lately, especially for the dashboard problems.",nps_survey,1
+FDB-00165,CUST-0121,2026-05-23,Two of our admins has basically stopped relying on data export because of repeated problems.,in_app_survey,1
+FDB-00166,CUST-0121,2026-05-18,"Getting tired of the constant issues with the Slack integration, considering alternatives.",app_store_review,2
+FDB-00167,CUST-0121,2026-05-02,"Frustrated that notifications keeps breaking this week, no clear fix in sight.",email,2
+FDB-00168,CUST-0122,2026-07-15,"Support response time has gotten a lot worse lately, especially for the admin console problems.",app_store_review,1
+FDB-00169,CUST-0122,2026-04-20,"Frustrated that the API keeps breaking this morning, no clear fix in sight.",app_store_review,1
+FDB-00170,CUST-0122,2026-05-02,"Support response time has gotten a lot worse lately, especially for the admin console problems.",app_store_review,2
+FDB-00171,CUST-0123,2026-04-29,,nps_survey,1
+FDB-00172,CUST-0123,2026-04-27,We've had recurring issues with search and it's affecting our team's trust in the tool.,support_chat,2
+FDB-00173,CUST-0124,2026-07-12,"Whoever worked on the dashboard recently did a great job, noticeably better.",support_chat,4
+FDB-00174,CUST-0127,2026-05-31,Impressed with the recent improvements to the calendar sync.,app_store_review,4
+FDB-00175,CUST-0128,2026-07-12,"Bulk editing does what it needs to, nothing more to say really.",in_app_survey,3
+FDB-00176,CUST-0128,2026-06-08,"Bulk editing is fine, though we haven't explored everything it offers yet.",email,3
+FDB-00177,CUST-0129,2026-07-02,,email,4
+FDB-00178,CUST-0129,2026-05-17,"Whoever worked on the admin console recently did a great job, noticeably better.",support_chat,5
+FDB-00179,CUST-0130,2026-06-27,Really happy with how easy the API is to use day to day.,in_app_survey,5
+FDB-00180,CUST-0130,2026-06-19,Really happy with how easy search is to use day to day.,support_chat,5
+FDB-00181,CUST-0130,2026-06-05,Impressed with the recent improvements to the dashboard.,app_store_review,5
+FDB-00182,CUST-0131,2026-06-20,"Whoever worked on the collaboration workspace recently did a great job, noticeably better.",email,4
+FDB-00183,CUST-0132,2026-05-18,Bulk editing feels less reliable than it used to for our whole team.,support_chat,2
+FDB-00184,CUST-0133,2026-07-12,"Not bad, not amazing. We'll see how two of our admins feels in a few months.",nps_survey,3
+FDB-00185,CUST-0133,2026-06-08,"Not bad, not amazing. We'll see how our ops team feels in a few months.",support_chat,3
+FDB-00186,CUST-0133,2026-05-07,"Hard to say, depends on the day honestly, especially with the API.",support_chat,3
+FDB-00187,CUST-0134,2026-05-01,,support_chat,4
+FDB-00188,CUST-0134,2026-07-10,Great support team — they resolved our issue with the admin console quickly.,email,5
+FDB-00189,CUST-0135,2026-04-28,"Frustrated that notifications keeps breaking since we onboarded, no clear fix in sight.",nps_survey,2
+FDB-00190,CUST-0135,2026-07-12,Just me so far has basically stopped relying on the reporting tool because of repeated problems.,email,1
+FDB-00191,CUST-0135,2026-04-26,"Frustrated that the calendar sync keeps breaking this morning, no clear fix in sight.",app_store_review,1
+FDB-00192,CUST-0136,2026-05-16,"Support response time has gotten a lot worse lately, especially for the admin console problems.",email,1
+FDB-00193,CUST-0136,2026-07-10,"Getting tired of the constant issues with search, considering alternatives.",email,1
+FDB-00194,CUST-0137,2026-04-20,"The API is fine, though we haven't explored everything it offers yet.",email,3
+FDB-00195,CUST-0138,2026-06-22,"Hard to say, depends on the day honestly, especially with the collaboration workspace.",email,3
+FDB-00196,CUST-0138,2026-06-02,"Hard to say, depends on the day honestly, especially with the admin console.",email,3
+FDB-00197,CUST-0138,2026-06-18,"Not bad, not amazing. We'll see how just me so far feels in a few months.",email,3
+FDB-00198,CUST-0138,2026-07-06,"Not bad, not amazing. We'll see how everyone on the Pro plan feels in a few months.",support_chat,3
+FDB-00199,CUST-0138,2026-06-02,"It's okay for now, our ops team hasn't fully decided either way.",support_chat,3
+FDB-00200,CUST-0138,2026-07-01,"It's okay for now, a few of us hasn't fully decided either way.",app_store_review,3
+FDB-00201,CUST-0138,2026-05-21,"Mixed feelings about the reporting tool, some parts are great, others need work.",email,3
+FDB-00202,CUST-0141,2026-06-23,Setup was straightforward and the dashboard has been reliable since.,nps_survey,5
+FDB-00203,CUST-0142,2026-05-29,Great support team — they resolved our issue with the collaboration workspace quickly.,nps_survey,5
+FDB-00204,CUST-0144,2026-05-24,"Whoever worked on the mobile app recently did a great job, noticeably better.",in_app_survey,4
+FDB-00205,CUST-0144,2026-06-13,"Whoever worked on the Slack integration recently did a great job, noticeably better.",nps_survey,5
+FDB-00206,CUST-0144,2026-05-01,"Data export has become a core part of our workflow, works well for just me so far.",in_app_survey,5
+FDB-00207,CUST-0144,2026-07-10,"Bulk editing has become a core part of our workflow, works well for two of our admins.",support_chat,4
+FDB-00208,CUST-0145,2026-05-24,"Not bad, not amazing. We'll see how two of our admins feels in a few months.",support_chat,3
+FDB-00209,CUST-0145,2026-06-27,"Hard to say, depends on the day honestly, especially with the API.",in_app_survey,3
+FDB-00210,CUST-0146,2026-07-12,"The dashboard does what it needs to, nothing more to say really.",nps_survey,3
+FDB-00211,CUST-0146,2026-05-31,"Mixed feelings about data export, some parts are great, others need work.",email,3
+FDB-00212,CUST-0147,2026-06-12,"Getting tired of the constant issues with notifications, considering alternatives.",app_store_review,1
+FDB-00213,CUST-0148,2026-07-09,"The admin console has become a core part of our workflow, works well for most of the account.",email,5
+FDB-00214,CUST-0148,2026-05-20,"Whoever worked on bulk editing recently did a great job, noticeably better.",support_chat,4
+FDB-00215,CUST-0148,2026-05-10,Setup was straightforward and data export has been reliable since.,email,5
+FDB-00216,CUST-0148,2026-05-04,Great support team — they resolved our issue with the mobile app quickly.,nps_survey,4
+FDB-00217,CUST-0150,2026-07-12,"The collaboration workspace has become a core part of our workflow, works well for two of our admins.",in_app_survey,5
+FDB-00218,CUST-0150,2026-04-30,"The dashboard has become a core part of our workflow, works well for our whole team.",support_chat,4

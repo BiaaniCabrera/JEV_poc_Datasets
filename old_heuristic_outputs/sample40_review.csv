@@ -1,0 +1,3 @@
+ticket_id,customer_id,created_at,subject,message,category,priority,resolution_time_hours,status,satisfaction_score,problem_impact,problem_impact_conf,runner_up,runner_up_conf,skipped,error
+TCK-00028,CUST-0008,2026-06-17 00:00,Connectivity problem,"Hi team, We keep getting disconnected while using data export, since we onboarded. Happy to jump on a call if easier.",Technical_issue,medium,18.2,resolved,4.0,Data Handling,0.54,Connectivity/Integration,0.41,,
+TCK-00030,CUST-0008,2026-06-27 00:00,Quick question,Quick one — Quick question about how bulk editing handles larger data sets.,general_question,low,56.4,resolved,5.0,Data Handling,0.56,Interface Error,0.34,,

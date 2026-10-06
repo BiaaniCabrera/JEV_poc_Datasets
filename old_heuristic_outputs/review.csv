@@ -1,0 +1,1 @@
+ticket_id,customer_id,created_at,subject,message,category,priority,resolution_time_hours,status,satisfaction_score,problem_impact,problem_impact_conf,skipped,error

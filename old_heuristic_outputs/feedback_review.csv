@@ -1,0 +1,10 @@
+feedback_id,customer_id,created_at,feedback_text,feedback_source,rating,feedback_theme,feedback_theme_conf,runner_up,runner_up_conf,is_complaint_noul,is_complaint_rating,complaint_match,skipped,error
+FDB-00002,CUST-0002,2026-05-19,"It's okay for now, two of our admins hasn't fully decided either way.",support_chat,3,Admin Console,0.52,Other,0.41,True,False,False,,
+FDB-00008,CUST-0006,2026-06-09,Setup was straightforward and the admin console has been reliable since.,app_store_review,5,Admin Console,0.93,Product Reliability,0.06,True,False,False,,
+FDB-00017,CUST-0010,2026-05-26,Great support team — they resolved our issue with the API quickly.,app_store_review,4,Support Response Time,0.98,API,0.02,True,False,False,,
+FDB-00001,CUST-0001,2026-04-29,"Mixed feelings about search, some parts are great, others need work.",support_chat,3,Search,1.0,Dashboard,0.0,True,False,False,,
+FDB-00009,CUST-0006,2026-06-08,"The API has become a core part of our workflow, works well for just me so far.",nps_survey,4,API,1.0,Reporting Tool,0.0,True,False,False,,
+FDB-00010,CUST-0007,2026-06-29,"Search has become a core part of our workflow, works well for everyone on the Pro plan.",support_chat,4,Search,1.0,Product Reliability,0.0,True,False,False,,
+FDB-00011,CUST-0007,2026-06-17,Really happy with how easy the dashboard is to use day to day.,app_store_review,5,Dashboard,1.0,Mobile App Experience,0.0,True,False,False,,
+FDB-00016,CUST-0010,2026-06-11,"Notifications has become a core part of our workflow, works well for our whole team.",email,5,Notifications,1.0,Product Reliability,0.0,True,False,False,,
+FDB-00018,CUST-0011,2026-06-02,"The collaboration workspace has become a core part of our workflow, works well for just me so far.",support_chat,4,Collaboration Workspace,1.0,API,0.0,True,False,False,,

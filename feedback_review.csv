@@ -1,0 +1,8 @@
+feedback_id,customer_id,created_at,feedback_text,feedback_source,rating,feedback_theme,feedback_theme_conf,runner_up,runner_up_conf,is_complaint_prob,is_complaint_noul,skipped,error
+FDB-00022,CUST-0013,2026-06-11,Starting to question whether this is still the right tool for just me so far.,email,2,Other,0.44,Subscriptions or Plans,0.48,0.72,True,,
+FDB-00147,CUST-0111,2026-07-06,Starting to question whether this is still the right tool for just me so far.,app_store_review,2,Subscriptions or Plans,0.48,Other,0.43,0.72,True,,
+FDB-00056,CUST-0039,2026-05-06,"It's okay for now, two of our admins hasn't fully decided either way.",in_app_survey,3,Admin Console,0.5,Other,0.42,0.19,False,,
+FDB-00002,CUST-0002,2026-05-19,"It's okay for now, two of our admins hasn't fully decided either way.",support_chat,3,Admin Console,0.52,Other,0.41,0.19,False,,
+FDB-00202,CUST-0141,2026-06-23,Setup was straightforward and the dashboard has been reliable since.,nps_survey,5,Product Reliability,0.54,Dashboard,0.42,0.02,False,,
+FDB-00040,CUST-0030,2026-05-31,Setup was straightforward and the dashboard has been reliable since.,app_store_review,5,Product Reliability,0.58,Dashboard,0.38,0.03,False,,
+FDB-00208,CUST-0145,2026-05-24,"Not bad, not amazing. We'll see how two of our admins feels in a few months.",support_chat,3,Admin Console,0.59,Other,0.33,0.25,False,,

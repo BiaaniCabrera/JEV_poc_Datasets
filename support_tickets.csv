@@ -1,0 +1,492 @@
+ticket_id,customer_id,created_at,subject,message,category,priority,resolution_time_hours,status,satisfaction_score
+TCK-00001,CUST-0001,2026-05-28 00:00,General inquiry,Quick question about how notifications handles larger data sets. Happy to jump on a call if easier.,general_question,low,21.0,resolved,4.0
+TCK-00002,CUST-0002,2026-05-18 00:00,Question about invoice,Quick one — Can we get an itemized invoice for this month? our support lead needs it for expense reporting. Thanks in advance.,billing,low,45.8,resolved,5.0
+TCK-00003,CUST-0002,2026-04-20 00:00,Plan limits question,"Not sure if this is expected behavior in data export or not, wanted to ask. Appreciate the help.",general_question,medium,9.8,resolved,2.0
+TCK-00004,CUST-0004,2026-05-10 00:00,Export issue,Hoping you can help: Most of the account found that bulk editing shows the wrong numbers compared to last week. Happy to jump on a call if easier.,bug,high,,pending,
+TCK-00005,CUST-0004,2026-06-06 00:00,Dashboard not loading,Following up on this: The API has been timing out for most of the account since we onboarded. Let me know what you need from us.,technical_issue,urgent,2.4,resolved,2.0
+TCK-00006,CUST-0004,2026-06-19 00:00,Dashboard not loading,"Hello, A few of us can't get the Slack integration to load properly for a couple of hours now. Appreciate the help.",technical_issue,medium,7.7,resolved,3.0
+TCK-00007,CUST-0004,2026-04-30 00:00,Sync errors,Data export has been timing out for our whole team every time we try. Thanks in advance.,technical_issue,high,,open,
+TCK-00008,CUST-0004,2026-04-26 00:00,Errors after update,"Hello, Most of the account found that bulk editing shows the wrong numbers compared to last week.",bug,high,3.0,resolved,1.0
+TCK-00009,CUST-0004,2026-06-07 00:00,Sync errors,Following up on this: Our ops team can't get the API to load properly this morning. Appreciate the help.,technical_issue,high,2.5,resolved,2.0
+TCK-00010,CUST-0004,2026-07-07 00:00,Sync errors,Following up on this: The calendar sync has been timing out for two of our admins for the last few days. Appreciate the help.,technical_issue,high,4.6,resolved,3.0
+TCK-00011,CUST-0004,2026-07-14 00:00,Refund policy question,"Hi team, We were charged twice for our plan since the latest update, could you check our invoice? Appreciate the help.",billing,medium,10.6,resolved,4.0
+TCK-00012,CUST-0004,2026-06-15 00:00,Performance issue,"Hello, Our whole team can't get the calendar sync to load properly every time we try. Happy to jump on a call if easier.",technical_issue,high,9.7,resolved,2.0
+TCK-00013,CUST-0004,2026-06-15 00:00,Locked out of account,Hoping you can help: Our support lead lost access to search after the last permissions change. Thanks in advance.,account_access,medium,,open,
+TCK-00014,CUST-0004,2026-06-30 00:00,Connectivity problem,Following up on this: Sync between our account and the mobile app keeps failing halfway through. Let me know what you need from us.,technical_issue,high,4.2,resolved,2.0
+TCK-00015,CUST-0005,2026-05-15 00:00,Dashboard not loading,Hoping you can help: Sync between our account and the collaboration workspace keeps failing halfway through.,technical_issue,low,36.9,resolved,1.0
+TCK-00016,CUST-0005,2026-07-14 00:00,Errors after update,"Getting a blank screen when opening data export, happening for our whole team. Let me know what you need from us.",bug,high,,open,
+TCK-00017,CUST-0005,2026-06-05 00:00,Export issue,We started seeing repeated error messages in the API right after the last release. Thanks in advance.,bug,high,1.9,resolved,1.0
+TCK-00018,CUST-0005,2026-07-12 00:00,Incorrect data shown,"Quick one — The mobile app produced a corrupted result for a couple of hours now, seems like a bug. Not sure if this is expected.",bug,medium,6.6,resolved,3.0
+TCK-00019,CUST-0005,2026-06-14 00:00,Locked out of account,Just me so far should have edit access to data export but only has view rights. Let me know what you need from us.,account_access,high,,pending,
+TCK-00020,CUST-0005,2026-06-09 00:00,Locked out of account,"Hi team, Can you reset access for a teammate who's locked out of the account? Not sure if this is expected.",account_access,urgent,1.4,resolved,1.0
+TCK-00021,CUST-0005,2026-04-16 00:00,Connectivity problem,"Hi team, Bulk editing has been timing out for our support lead for the last few days.",technical_issue,high,2.5,resolved,2.0
+TCK-00022,CUST-0005,2026-06-09 00:00,Performance issue,"Hello, Sync between our account and bulk editing keeps failing halfway through. Appreciate the help.",technical_issue,high,5.8,resolved,2.0
+TCK-00023,CUST-0005,2026-04-26 00:00,Dashboard not loading,Hoping you can help: Sync between our account and the dashboard keeps failing halfway through. Not sure if this is expected.,technical_issue,medium,2.9,resolved,2.0
+TCK-00024,CUST-0006,2026-06-06 00:00,Quick question,Hoping you can help: Quick question about how the collaboration workspace handles larger data sets. Let me know what you need from us.,general_question,high,,open,
+TCK-00025,CUST-0007,2026-06-01 00:00,Getting started question,"Hi team, A few of us is still getting familiar with notifications, any onboarding resources available?",onboarding,medium,24.6,resolved,5.0
+TCK-00026,CUST-0007,2026-07-03 00:00,Setup question,"Our whole team is still getting familiar with the dashboard, any onboarding resources available?",onboarding,low,37.7,resolved,4.0
+TCK-00027,CUST-0008,2026-06-11 00:00,General inquiry,"Hello, Just checking what happens if our ops team goes over the seat limit. Appreciate the help.",general_question,high,1.0,resolved,3.0
+TCK-00028,CUST-0008,2026-06-17 00:00,Connectivity problem,"Hi team, We keep getting disconnected while using data export, since we onboarded. Happy to jump on a call if easier.",Technical_issue,medium,18.2,resolved,4.0
+TCK-00029,CUST-0008,2026-06-24 00:00,Plan limits question,Wanted to confirm whether the dashboard is included in our current plan. Thanks in advance.,general_question,medium,16.7,resolved,5.0
+TCK-00030,CUST-0008,2026-06-27 00:00,Quick question,Quick one — Quick question about how bulk editing handles larger data sets.,general_question,low,56.4,resolved,5.0
+TCK-00031,CUST-0009,2026-05-26 00:00,Connectivity problem,Hoping you can help: The API has been timing out for our ops team this morning. Not sure if this is expected.,technical_issue,high,3.8,resolved,5.0
+TCK-00032,CUST-0009,2026-06-26 00:00,Connectivity problem,Hoping you can help: Our ops team can't get the admin console to load properly for the last few days. Happy to jump on a call if easier.,technical_issue,low,15.3,resolved,4.0
+TCK-00033,CUST-0009,2026-05-21 00:00,Question about invoice,"Quick one — Our invoice total doesn't match what we expected this cycle, can you clarify the breakdown? Not sure if this is expected.",billing,medium,,open,
+TCK-00034,CUST-0009,2026-06-04 00:00,Performance issue,"Hoping you can help: We keep getting disconnected while using the reporting tool, this morning. Appreciate the help.",technical_issue,low,6.3,resolved,3.0
+TCK-00035,CUST-0009,2026-05-21 00:00,Refund policy question,"Hi team, Trying to understand the refund policy — is it different for annual vs monthly plans? Not sure if this is expected.",billing,urgent,1.7,resolved,4.0
+TCK-00036,CUST-0010,2026-06-28 00:00,Would be nice to have,"Hello, Just a thought — an export option directly from search would be handy. Let me know what you need from us.",feature_request,low,,open,
+TCK-00037,CUST-0010,2026-05-05 00:00,Small request,Just a thought — an export option directly from search would be handy.,feature_request,low,,open,
+TCK-00038,CUST-0010,2026-05-16 00:00,Small request,Quick one — A few of us would love to see keyboard shortcuts added to the calendar sync. Thanks in advance.,Feature_request,medium,2.6,resolved,2.0
+TCK-00039,CUST-0010,2026-06-06 00:00,Enhancement idea,Small suggestion: could the collaboration workspace have a dark mode option at some point? Let me know what you need from us.,feature_request,medium,3.0,resolved,4.0
+TCK-00040,CUST-0010,2026-07-06 00:00,Would be nice to have,Small suggestion: could the collaboration workspace have a dark mode option at some point? Appreciate the help.,feature_request,low,39.9,resolved,5.0
+TCK-00041,CUST-0010,2026-05-28 00:00,Small request,,feature_request,low,12.0,resolved,4.0
+TCK-00042,CUST-0010,2026-04-26 00:00,Would be nice to have,"Hoping you can help: Not urgent, but it'd help a lot if search supported bulk actions. Happy to jump on a call if easier.",feature_request,low,10.3,resolved,2.0
+TCK-00043,CUST-0010,2026-07-08 00:00,Small request,Quick one — Small suggestion: could the mobile app have a dark mode option at some point? Happy to jump on a call if easier.,feature_request,medium,,pending,
+TCK-00044,CUST-0011,2026-04-19 00:00,Would be nice to have,"Hi team, Our support lead would love to see keyboard shortcuts added to the API.",feature_request,low,19.7,resolved,4.0
+TCK-00045,CUST-0011,2026-05-28 00:00,Small request,Following up on this: Small suggestion: could the mobile app have a dark mode option at some point?,feature_request,medium,11.4,resolved,4.0
+TCK-00046,CUST-0011,2026-06-04 00:00,Would be nice to have,Quick one — Would it be possible to add more customization to the admin console? No rush on this. Appreciate the help.,feature_request,low,,open,
+TCK-00047,CUST-0011,2026-04-21 00:00,Would be nice to have,Our ops team would love to see keyboard shortcuts added to the reporting tool.,feature_request,medium,4.1,resolved,5.0
+TCK-00048,CUST-0011,2026-07-09 00:00,Small request,Following up on this: Everyone on the Pro plan would love to see keyboard shortcuts added to the API. Happy to jump on a call if easier.,feature_request,low,52.9,resolved,5.0
+TCK-00049,CUST-0011,2026-05-19 00:00,Would be nice to have,Hoping you can help: Would it be possible to add more customization to the mobile app? No rush on this.,feature_request,low,,open,
+TCK-00050,CUST-0011,2026-05-14 00:00,Enhancement idea,Quick one — Would it be possible to add more customization to the Slack integration? No rush on this. Happy to jump on a call if easier.,feature_request,low,23.7,resolved,3.0
+TCK-00051,CUST-0012,2026-06-04 00:00,Connectivity problem,Hoping you can help: Two of our admins can't get bulk editing to load properly since yesterday. Let me know what you need from us.,technical_issue,urgent,2.1,resolved,1.0
+TCK-00052,CUST-0012,2026-06-28 00:00,Errors after update,Hoping you can help: Everyone on the Pro plan found that bulk editing shows the wrong numbers compared to last week. Let me know what you need from us.,bug,high,0.6,resolved,4.0
+TCK-00053,CUST-0012,2026-06-25 00:00,Unexpected bug,"Hello, Bulk editing produced a corrupted result for a couple of hours now, seems like a bug. Thanks in advance.",bug,urgent,1.0,resolved,1.0
+TCK-00054,CUST-0012,2026-07-06 00:00,Connectivity problem,Following up on this: Sync between our account and the calendar sync keeps failing halfway through. Thanks in advance.,technical_issue,urgent,1.5,resolved,1.0
+TCK-00055,CUST-0012,2026-06-27 00:00,Export issue,"Hi team, The mobile app produced a corrupted result since we onboarded, seems like a bug. Let me know what you need from us.",bug,urgent,,open,
+TCK-00056,CUST-0012,2026-06-10 00:00,Unexpected bug,We started seeing repeated error messages in the dashboard right after the last release. Happy to jump on a call if easier.,bug,urgent,1.3,resolved,3.0
+TCK-00057,CUST-0012,2026-06-28 00:00,Errors after update,Quick one — We started seeing repeated error messages in the API right after the last release.,bug,urgent,1.0,resolved,3.0
+TCK-00058,CUST-0012,2026-06-07 00:00,Unexpected bug,"Hoping you can help: The mobile app produced a corrupted result this week, seems like a bug. Appreciate the help.",Bug,high,4.1,resolved,1.0
+TCK-00059,CUST-0012,2026-07-11 00:00,Errors after update,"Hello, Getting a blank screen when opening bulk editing, happening for our whole team.",bug,urgent,0.6,resolved,1.0
+TCK-00060,CUST-0013,2026-06-25 00:00,Incorrect data shown,Following up on this: Our ops team found that notifications shows the wrong numbers compared to last week. Not sure if this is expected.,bug,high,6.1,resolved,2.0
+TCK-00061,CUST-0013,2026-06-06 00:00,Incorrect data shown,"Getting a blank screen when opening the mobile app, happening for most of the account.",bug,urgent,1.2,resolved,1.0
+TCK-00062,CUST-0013,2026-07-05 00:00,Sync errors,"Hello, We keep getting disconnected while using the reporting tool, since the latest update. Not sure if this is expected.",technical_issue,high,6.6,resolved,3.0
+TCK-00063,CUST-0013,2026-07-04 00:00,Errors after update,Most of the account found that data export shows the wrong numbers compared to last week. Thanks in advance.,bug,urgent,1.2,resolved,1.0
+TCK-00064,CUST-0013,2026-07-06 00:00,Connectivity problem,"Hello, Our ops team can't get the API to load properly on and off for a week. Thanks in advance.",technical_issue,urgent,2.7,resolved,3.0
+TCK-00065,CUST-0013,2026-06-14 00:00,Connectivity problem,Quick one — Sync between our account and the dashboard keeps failing halfway through. Let me know what you need from us.,technical_issue,high,6.8,resolved,1.0
+TCK-00066,CUST-0013,2026-07-10 00:00,Incorrect data shown,Just me so far found that search shows the wrong numbers compared to last week. Appreciate the help.,bug,high,6.7,resolved,2.0
+TCK-00067,CUST-0013,2026-06-27 00:00,Incorrect data shown,"Following up on this: The reporting tool produced a corrupted result for the last few days, seems like a bug. Appreciate the help.",bug,high,,pending,
+TCK-00068,CUST-0013,2026-05-28 00:00,Unexpected bug,"Something broke in the API every time we try, it was working fine before.",bug,urgent,0.7,resolved,1.0
+TCK-00069,CUST-0013,2026-06-13 00:00,Errors after update,"Search produced a corrupted result since Monday, seems like a bug. Thanks in advance.",bug,high,1.8,resolved,2.0
+TCK-00070,CUST-0014,2026-05-27 00:00,General inquiry,Quick question about how the admin console handles larger data sets.,general_question,low,21.1,resolved,5.0
+TCK-00071,CUST-0014,2026-06-12 00:00,Billing discrepancy,"Hello, Our support lead noticed an unexpected charge on the latest invoice, can someone take a look? Let me know what you need from us.",billing,low,27.8,resolved,5.0
+TCK-00072,CUST-0014,2026-04-18 00:00,Clarifying a feature,Wanted to confirm whether the collaboration workspace is included in our current plan. Not sure if this is expected.,general_question,medium,4.2,resolved,5.0
+TCK-00073,CUST-0015,2026-04-20 00:00,Onboarding guidance,"Following up on this: A few of us is still getting familiar with the Slack integration, any onboarding resources available?",onboarding,low,31.8,resolved,5.0
+TCK-00074,CUST-0015,2026-06-20 00:00,Help setting up,"A few of us is still getting familiar with the calendar sync, any onboarding resources available? Happy to jump on a call if easier.",onboarding,low,13.2,resolved,3.0
+TCK-00075,CUST-0016,2026-05-05 00:00,Dashboard not loading,"Hoping you can help: We keep getting disconnected while using bulk editing, for a couple of hours now.",technical_issue,high,2.5,resolved,5.0
+TCK-00076,CUST-0016,2026-06-28 00:00,Connectivity problem,,technical_issue,low,,open,
+TCK-00077,CUST-0016,2026-06-23 00:00,Small request,"Hi team, Just a thought — an export option directly from search would be handy.",feature_request,high,3.0,resolved,3.0
+TCK-00078,CUST-0016,2026-04-21 00:00,General inquiry,Following up on this: Just checking what happens if two of our admins goes over the seat limit. Thanks in advance.,general_question,medium,6.8,resolved,3.0
+TCK-00079,CUST-0016,2026-05-13 00:00,Export issue,Quick one — We started seeing repeated error messages in the mobile app right after the last release.,bug,low,,open,
+TCK-00080,CUST-0016,2026-06-12 00:00,Small request,"Hi team, Small suggestion: could the collaboration workspace have a dark mode option at some point? Not sure if this is expected.",feature_request,low,,pending,
+TCK-00081,CUST-0017,2026-05-12 00:00,Would be nice to have,"Hi team, Just a thought — an export option directly from search would be handy. Thanks in advance.",feature_request,low,,pending,
+TCK-00082,CUST-0017,2026-05-18 00:00,Setup question,"We're new and trying to set up the dashboard, could use some guidance.",onboarding,low,56.9,resolved,5.0
+TCK-00083,CUST-0018,2026-07-08 00:00,Locked out of account,Everyone on the Pro plan should have edit access to the mobile app but only has view rights. Thanks in advance.,account_access,low,,open,
+TCK-00084,CUST-0018,2026-06-21 00:00,Clarifying a feature,"Hello, Just checking what happens if our ops team goes over the seat limit. Not sure if this is expected.",general_question,low,60.3,resolved,3.0
+TCK-00085,CUST-0018,2026-05-05 00:00,Plan limits question,Quick one — Quick question about how the reporting tool handles larger data sets. Thanks in advance.,general_question,urgent,0.3,resolved,4.0
+TCK-00086,CUST-0018,2026-05-27 00:00,Locked out of account,"Hard to tell if this is on our end or yours, just flagging it.",account_access,low,17.5,resolved,4.0
+TCK-00087,CUST-0020,2026-06-07 00:00,Would be nice to have,Can't quite tell if this is expected or if something changed recently.,feature_request,low,,open,
+TCK-00088,CUST-0020,2026-05-30 00:00,Quick question,Quick one — Wanted to confirm whether the reporting tool is included in our current plan.,general_question,low,,pending,
+TCK-00089,CUST-0021,2026-07-06 00:00,Connectivity problem,"We've gotten used to working around it, but figured we'd ask anyway.",technical_issue,high,,pending,
+TCK-00090,CUST-0021,2026-06-24 00:00,Question about invoice,"Hi team, Our invoice total doesn't match what we expected this cycle, can you clarify the breakdown? Thanks in advance.",billing,low,71.3,resolved,5.0
+TCK-00091,CUST-0021,2026-04-28 00:00,General inquiry,Following up on this: Just checking what happens if most of the account goes over the seat limit. Happy to jump on a call if easier.,general_question,medium,13.3,resolved,5.0
+TCK-00092,CUST-0022,2026-06-21 00:00,Performance issue,"Hoping you can help: We keep getting disconnected while using search, for a couple of hours now. Happy to jump on a call if easier.",technical_issue,medium,,pending,
+TCK-00093,CUST-0022,2026-06-04 00:00,Plan limits question,"Hi team, Not sure if this is expected behavior in the dashboard or not, wanted to ask. Appreciate the help.",general_question,high,2.2,resolved,4.0
+TCK-00094,CUST-0022,2026-07-05 00:00,Connectivity problem,Hoping you can help: Sync between our account and the API keeps failing halfway through. Appreciate the help.,technical_issue,low,11.6,resolved,3.0
+TCK-00095,CUST-0023,2026-05-29 00:00,Getting started question,Following up on this: Is there a guide for connecting search to our existing tools?,onboarding,high,3.1,resolved,3.0
+TCK-00096,CUST-0023,2026-06-01 00:00,Dashboard not loading,"Data export is extremely slow for our support lead since the latest update, is there a known issue?",technical_issue,low,29.6,resolved,5.0
+TCK-00097,CUST-0024,2026-06-12 00:00,Quick question,"Hi team, Not sure if this is expected behavior in the collaboration workspace or not, wanted to ask.",general_question,low,14.5,resolved,5.0
+TCK-00098,CUST-0025,2026-06-22 00:00,Plan limits question,Following up on this: Just checking what happens if two of our admins goes over the seat limit. Not sure if this is expected.,general_question,medium,5.4,resolved,3.0
+TCK-00099,CUST-0025,2026-07-04 00:00,Small request,Just a thought — an export option directly from the calendar sync would be handy. Appreciate the help.,feature_request,medium,2.9,resolved,5.0
+TCK-00100,CUST-0025,2026-06-14 00:00,Incorrect data shown,"Hi team, The reporting tool produced a corrupted result since we onboarded, seems like a bug. Happy to jump on a call if easier.",bug,high,1.5,resolved,5.0
+TCK-00101,CUST-0025,2026-05-04 00:00,Plan limits question,"Quick one — Not sure if this is expected behavior in the collaboration workspace or not, wanted to ask. Not sure if this is expected.",general_question,low,8.4,resolved,5.0
+TCK-00102,CUST-0025,2026-05-21 00:00,Clarifying a feature,"Hi team, Just checking what happens if most of the account goes over the seat limit. Appreciate the help.",General_question,urgent,1.1,resolved,3.0
+TCK-00103,CUST-0025,2026-06-21 00:00,Question about invoice,"Hello, We upgraded plans recently and the billing amount looks off, can you confirm it's correct?",billing,medium,17.2,resolved,5.0
+TCK-00104,CUST-0026,2026-05-29 00:00,Dashboard not loading,Hoping you can help: Sync between our account and the Slack integration keeps failing halfway through. Thanks in advance.,Technical_issue,low,,open,
+TCK-00105,CUST-0027,2026-05-23 00:00,Feature suggestion,"Hi team, Not urgent, but it'd help a lot if the admin console supported bulk actions.",feature_request,high,,open,
+TCK-00106,CUST-0027,2026-06-10 00:00,Dashboard not loading,Following up on this: Our ops team can't get the admin console to load properly this morning. Not sure if this is expected.,technical_issue,medium,19.5,resolved,4.0
+TCK-00107,CUST-0027,2026-04-17 00:00,Invoice request,"Following up on this: Just me so far noticed an unexpected charge on the latest invoice, can someone take a look? Let me know what you need from us.",billing,low,4.5,resolved,5.0
+TCK-00108,CUST-0028,2026-06-27 00:00,Would be nice to have,"Hoping you can help: Not urgent, but it'd help a lot if the calendar sync supported bulk actions.",feature_request,medium,4.6,resolved,5.0
+TCK-00109,CUST-0029,2026-07-02 00:00,Invoice request,"We upgraded plans recently and the billing amount looks off, can you confirm it's correct? Appreciate the help.",billing,medium,2.7,resolved,4.0
+TCK-00110,CUST-0029,2026-07-05 00:00,Unexpected bug,"Following up on this: The API produced a corrupted result for the last few days, seems like a bug. Let me know what you need from us.",bug,high,3.7,resolved,5.0
+TCK-00111,CUST-0029,2026-05-18 00:00,Onboarding guidance,"Hello, Is there a guide for connecting the API to our existing tools? Appreciate the help.",onboarding,medium,17.8,resolved,4.0
+TCK-00112,CUST-0029,2026-06-26 00:00,Onboarding guidance,"Our support lead is still getting familiar with search, any onboarding resources available?",onboarding,low,103.4,resolved,4.0
+TCK-00113,CUST-0029,2026-05-15 00:00,Enhancement idea,"Hoping you can help: Not urgent, but it'd help a lot if the admin console supported bulk actions. Appreciate the help.",feature_request,high,7.5,resolved,5.0
+TCK-00114,CUST-0029,2026-06-17 00:00,Clarifying a feature,Quick question about how data export handles larger data sets. Thanks in advance.,general_question,high,9.4,resolved,5.0
+TCK-00115,CUST-0029,2026-06-26 00:00,Would be nice to have,Just a thought — an export option directly from the admin console would be handy. Happy to jump on a call if easier.,feature_request,medium,22.4,resolved,5.0
+TCK-00116,CUST-0029,2026-05-29 00:00,Invoice request,"Hello, A few of us noticed an unexpected charge on the latest invoice, can someone take a look? Thanks in advance.",billing,low,46.3,resolved,1.0
+TCK-00117,CUST-0030,2026-05-21 00:00,Sync errors,Could be worse. Could be better too. Let us know if there's an update coming.,technical_issue,medium,15.2,resolved,3.0
+TCK-00118,CUST-0030,2026-04-17 00:00,Feature suggestion,Hoping you can help: Just a thought — an export option directly from the mobile app would be handy. Not sure if this is expected.,feature_request,low,,pending,
+TCK-00119,CUST-0030,2026-06-21 00:00,Clarifying a feature,Quick one — Quick question about how the admin console handles larger data sets. Let me know what you need from us.,general_question,low,42.7,resolved,5.0
+TCK-00120,CUST-0031,2026-04-25 00:00,Plan limits question,Quick question about how the admin console handles larger data sets.,general_question,medium,,pending,
+TCK-00121,CUST-0031,2026-04-29 00:00,Small request,Quick one — Would it be possible to add more customization to the admin console? No rush on this. Let me know what you need from us.,feature_request,medium,9.7,resolved,2.0
+TCK-00122,CUST-0032,2026-06-10 00:00,Small request,"It's fine I guess, just not what we expected honestly.",feature_request,medium,17.7,resolved,4.0
+TCK-00123,CUST-0032,2026-07-15 00:00,General inquiry,Following up on this: Just checking what happens if our ops team goes over the seat limit.,general_question,low,35.4,resolved,4.0
+TCK-00124,CUST-0032,2026-06-05 00:00,Would be nice to have,"Hi team, Would it be possible to add more customization to notifications? No rush on this. Not sure if this is expected.",feature_request,urgent,,open,
+TCK-00125,CUST-0032,2026-06-24 00:00,Performance issue,The calendar sync has been timing out for a few of us for a couple of hours now.,technical_issue,low,67.6,resolved,4.0
+TCK-00126,CUST-0032,2026-05-17 00:00,Small request,"Hello, Small suggestion: could the dashboard have a dark mode option at some point?",feature_request,medium,6.6,resolved,4.0
+TCK-00127,CUST-0033,2026-06-07 00:00,Would be nice to have,"Hello, Small suggestion: could search have a dark mode option at some point? Thanks in advance.",feature_request,medium,29.8,resolved,5.0
+TCK-00128,CUST-0033,2026-06-06 00:00,Performance issue,Search has been timing out for our ops team this week. Not sure if this is expected.,Technical_issue,low,47.5,resolved,4.0
+TCK-00129,CUST-0033,2026-04-16 00:00,Feature suggestion,"Not urgent, but it'd help a lot if search supported bulk actions. Not sure if this is expected.",feature_request,low,65.5,resolved,5.0
+TCK-00130,CUST-0033,2026-07-04 00:00,Errors after update,Hoping you can help: Everyone on the Pro plan found that the reporting tool shows the wrong numbers compared to last week. Thanks in advance.,bug,low,,pending,
+TCK-00131,CUST-0034,2026-05-08 00:00,Would be nice to have,"Not urgent, but it'd help a lot if the calendar sync supported bulk actions. Let me know what you need from us.",feature_request,high,,pending,
+TCK-00132,CUST-0035,2026-06-30 00:00,Quick question,Quick one — Wanted to confirm whether the API is included in our current plan. Happy to jump on a call if easier.,general_question,medium,4.4,resolved,4.0
+TCK-00133,CUST-0035,2026-06-25 00:00,Sync errors,"Hard to tell if this is on our end or yours, just flagging it.",technical_issue,low,37.0,resolved,5.0
+TCK-00134,CUST-0035,2026-04-21 00:00,Connectivity problem,"Following up on this: The reporting tool is extremely slow for a few of us since we onboarded, is there a known issue? Happy to jump on a call if easier.",technical_issue,high,7.4,resolved,4.0
+TCK-00135,CUST-0035,2026-06-05 00:00,Sync errors,"Hello, Two of our admins can't get search to load properly on and off for a week. Happy to jump on a call if easier.",technical_issue,medium,16.2,resolved,4.0
+TCK-00136,CUST-0036,2026-04-29 00:00,Clarifying a feature,Hoping you can help: Wanted to confirm whether the Slack integration is included in our current plan.,general_question,low,16.2,resolved,5.0
+TCK-00137,CUST-0036,2026-06-28 00:00,Refund policy question,"Hello, We upgraded plans recently and the billing amount looks off, can you confirm it's correct? Appreciate the help.",billing,medium,1.8,resolved,5.0
+TCK-00138,CUST-0036,2026-06-10 00:00,Plan limits question,Quick question about how bulk editing handles larger data sets. Appreciate the help.,general_question,high,,pending,
+TCK-00139,CUST-0036,2026-04-25 00:00,Login problem,Our whole team lost access to the calendar sync after the last permissions change. Appreciate the help.,account_access,medium,16.4,resolved,4.0
+TCK-00140,CUST-0037,2026-05-16 00:00,Incorrect data shown,We started seeing repeated error messages in the collaboration workspace right after the last release. Appreciate the help.,bug,low,10.3,resolved,2.0
+TCK-00141,CUST-0037,2026-06-09 00:00,General inquiry,"Following up on this: Not sure if this is expected behavior in bulk editing or not, wanted to ask.",general_question,medium,19.1,resolved,4.0
+TCK-00142,CUST-0038,2026-06-17 00:00,Question about invoice,"Hi team, We upgraded plans recently and the billing amount looks off, can you confirm it's correct? Happy to jump on a call if easier.",billing,high,1.0,resolved,2.0
+TCK-00143,CUST-0038,2026-06-17 00:00,General inquiry,"This used to work better before, or maybe I'm misremembering.",general_question,low,,pending,
+TCK-00144,CUST-0038,2026-07-13 00:00,Refund policy question,Quick one — Trying to understand the refund policy — is it different for annual vs monthly plans?,billing,medium,,pending,
+TCK-00145,CUST-0038,2026-06-18 00:00,Quick question,Wanted to confirm whether the mobile app is included in our current plan.,general_question,low,49.8,resolved,2.0
+TCK-00146,CUST-0038,2026-06-10 00:00,Would be nice to have,Small suggestion: could the mobile app have a dark mode option at some point? Thanks in advance.,feature_request,low,,open,
+TCK-00147,CUST-0040,2026-05-05 00:00,General inquiry,"Quick one — Not sure if this is expected behavior in search or not, wanted to ask. Appreciate the help.",general_question,low,12.5,resolved,3.0
+TCK-00148,CUST-0040,2026-05-10 00:00,Clarifying a feature,Hoping you can help: Just checking what happens if our ops team goes over the seat limit. Thanks in advance.,general_question,low,40.7,resolved,5.0
+TCK-00149,CUST-0040,2026-06-07 00:00,Quick question,"Hi team, Not sure if this is expected behavior in the admin console or not, wanted to ask.",general_question,medium,7.9,resolved,1.0
+TCK-00150,CUST-0040,2026-06-04 00:00,Quick question,"Not sure if this is expected behavior in bulk editing or not, wanted to ask. Happy to jump on a call if easier.",general_question,low,,open,
+TCK-00151,CUST-0041,2026-06-04 00:00,Connectivity problem,"Hello, Sync between our account and the admin console keeps failing halfway through. Happy to jump on a call if easier.",technical_issue,medium,14.0,resolved,5.0
+TCK-00152,CUST-0041,2026-06-01 00:00,General inquiry,"Following up on this: Not sure if this is expected behavior in the collaboration workspace or not, wanted to ask.",general_question,medium,4.0,resolved,3.0
+TCK-00153,CUST-0041,2026-06-24 00:00,Clarifying a feature,"Quick one — Not sure if this is expected behavior in bulk editing or not, wanted to ask. Appreciate the help.",general_question,low,32.3,resolved,4.0
+TCK-00154,CUST-0041,2026-05-29 00:00,Unexpected bug,"Hi team, We started seeing repeated error messages in the admin console right after the last release. Happy to jump on a call if easier.",bug,medium,13.9,resolved,3.0
+TCK-00155,CUST-0041,2026-07-04 00:00,Login problem,Quick one — Two of our admins should have edit access to search but only has view rights. Thanks in advance.,account_access,medium,20.8,resolved,4.0
+TCK-00156,CUST-0041,2026-07-04 00:00,Sync errors,"Hoping you can help: We keep getting disconnected while using search, for the last few days. Appreciate the help.",technical_issue,high,6.1,resolved,4.0
+TCK-00157,CUST-0042,2026-07-10 00:00,Small request,Quick one — Most of the account would love to see keyboard shortcuts added to the calendar sync. Let me know what you need from us.,feature_request,low,29.6,resolved,5.0
+TCK-00158,CUST-0042,2026-05-26 00:00,Quick question,Just checking what happens if our whole team goes over the seat limit.,general_question,urgent,3.8,resolved,5.0
+TCK-00159,CUST-0042,2026-05-11 00:00,Billing discrepancy,Hoping you can help: Trying to understand the refund policy — is it different for annual vs monthly plans?,billing,high,1.6,resolved,3.0
+TCK-00160,CUST-0042,2026-06-26 00:00,Plan limits question,"Hi team, Not sure if this is expected behavior in the collaboration workspace or not, wanted to ask. Not sure if this is expected.",general_question,low,28.6,resolved,4.0
+TCK-00161,CUST-0042,2026-05-17 00:00,Errors after update,"Quick one — Something broke in the reporting tool since yesterday, it was working fine before. Appreciate the help.",bug,medium,2.9,resolved,3.0
+TCK-00162,CUST-0042,2026-06-01 00:00,Plan limits question,"Hello, Wanted to confirm whether the dashboard is included in our current plan.",general_question,medium,,pending,
+TCK-00163,CUST-0043,2026-05-24 00:00,Plan limits question,Following up on this: Just checking what happens if our ops team goes over the seat limit.,general_question,low,,pending,
+TCK-00164,CUST-0043,2026-06-18 00:00,Clarifying a feature,"This used to work better before, or maybe I'm misremembering.",general_question,medium,15.0,resolved,3.0
+TCK-00165,CUST-0043,2026-04-19 00:00,Sync errors,Quick one — Bulk editing has been timing out for our ops team this morning. Appreciate the help.,technical_issue,urgent,1.5,resolved,3.0
+TCK-00166,CUST-0044,2026-07-09 00:00,Export issue,"Hello, We started seeing repeated error messages in the calendar sync right after the last release. Appreciate the help.",bug,medium,8.2,resolved,4.0
+TCK-00167,CUST-0045,2026-05-20 00:00,Refund policy question,Following up on this: Trying to understand the refund policy — is it different for annual vs monthly plans? Let me know what you need from us.,billing,medium,4.6,resolved,3.0
+TCK-00168,CUST-0045,2026-05-22 00:00,Invoice request,"We upgraded plans recently and the billing amount looks off, can you confirm it's correct?",billing,low,80.8,resolved,5.0
+TCK-00169,CUST-0045,2026-04-24 00:00,Plan limits question,Just checking what happens if everyone on the Pro plan goes over the seat limit. Not sure if this is expected.,general_question,low,102.3,resolved,4.0
+TCK-00170,CUST-0045,2026-07-05 00:00,Export issue,"Following up on this: Getting a blank screen when opening the reporting tool, happening for two of our admins.",bug,urgent,2.9,resolved,5.0
+TCK-00171,CUST-0045,2026-07-12 00:00,Quick question,Quick one — Just checking what happens if two of our admins goes over the seat limit.,general_question,low,26.7,resolved,5.0
+TCK-00172,CUST-0046,2026-05-22 00:00,Feature suggestion,"Hi team, A few of us would love to see keyboard shortcuts added to data export. Thanks in advance.",feature_request,low,121.2,resolved,5.0
+TCK-00173,CUST-0047,2026-05-01 00:00,Dashboard not loading,"Hi team, We keep getting disconnected while using data export, for a couple of hours now. Appreciate the help.",technical_issue,low,57.7,resolved,4.0
+TCK-00174,CUST-0047,2026-05-22 00:00,Enhancement idea,Following up on this: Would it be possible to add more customization to the admin console? No rush on this. Happy to jump on a call if easier.,feature_request,medium,11.3,resolved,5.0
+TCK-00175,CUST-0047,2026-05-30 00:00,Quick question,Following up on this: Wanted to confirm whether the reporting tool is included in our current plan. Happy to jump on a call if easier.,general_question,low,9.3,resolved,4.0
+TCK-00176,CUST-0047,2026-07-12 00:00,Locked out of account,"Hello, Can you reset access for a teammate who's locked out of the account? Happy to jump on a call if easier.",Account_access,low,,open,
+TCK-00177,CUST-0048,2026-06-17 00:00,Billing discrepancy,"Quick one — Everyone on the Pro plan noticed an unexpected charge on the latest invoice, can someone take a look? Appreciate the help.",billing,low,,open,
+TCK-00178,CUST-0048,2026-06-06 00:00,Invoice request,"Our invoice total doesn't match what we expected this cycle, can you clarify the breakdown?",billing,high,1.6,resolved,3.0
+TCK-00179,CUST-0049,2026-06-06 00:00,Unexpected bug,We started seeing repeated error messages in data export right after the last release.,bug,medium,4.5,resolved,2.0
+TCK-00180,CUST-0050,2026-06-05 00:00,Refund policy question,"Quick one — Our support lead noticed an unexpected charge on the latest invoice, can someone take a look? Appreciate the help.",billing,low,,pending,
+TCK-00181,CUST-0051,2026-04-23 00:00,Quick question,"Hi team, Just checking what happens if our ops team goes over the seat limit. Thanks in advance.",general_question,urgent,1.6,resolved,4.0
+TCK-00182,CUST-0051,2026-05-25 00:00,General inquiry,Hoping you can help: Quick question about how bulk editing handles larger data sets. Thanks in advance.,general_question,medium,5.4,resolved,3.0
+TCK-00183,CUST-0051,2026-05-02 00:00,Invoice request,"Hi team, We were charged twice for the mobile app for a couple of hours now, could you check our invoice? Thanks in advance.",billing,medium,,pending,
+TCK-00184,CUST-0052,2026-05-26 00:00,Would be nice to have,Following up on this: Would it be possible to add more customization to notifications? No rush on this. Thanks in advance.,feature_request,high,,pending,
+TCK-00185,CUST-0052,2026-06-28 00:00,Errors after update,"Hoping you can help: Getting a blank screen when opening the calendar sync, happening for our support lead. Appreciate the help.",bug,high,,pending,
+TCK-00186,CUST-0052,2026-06-04 00:00,Refund policy question,"We were charged twice for the mobile app on and off for a week, could you check our invoice? Appreciate the help.",billing,high,5.6,resolved,3.0
+TCK-00187,CUST-0053,2026-06-01 00:00,Help setting up,"Hello, Everyone on the Pro plan is still getting familiar with the API, any onboarding resources available?",onboarding,medium,13.0,resolved,4.0
+TCK-00188,CUST-0053,2026-06-17 00:00,Getting started question,Following up on this: How do we get our ops team added with the right permissions?,onboarding,urgent,,open,
+TCK-00189,CUST-0053,2026-05-22 00:00,Clarifying a feature,"Hello, Wanted to confirm whether the admin console is included in our current plan. Thanks in advance.",general_question,high,2.2,resolved,1.0
+TCK-00190,CUST-0053,2026-04-26 00:00,Small request,Hoping you can help: Most of the account would love to see keyboard shortcuts added to bulk editing. Appreciate the help.,Feature_request,high,,open,
+TCK-00191,CUST-0054,2026-05-21 00:00,Clarifying a feature,Quick question about how data export handles larger data sets.,General_question,low,17.0,resolved,3.0
+TCK-00192,CUST-0054,2026-06-03 00:00,Connectivity problem,Following up on this: Our whole team can't get the collaboration workspace to load properly for a couple of hours now. Let me know what you need from us.,technical_issue,low,13.5,resolved,5.0
+TCK-00193,CUST-0055,2026-05-02 00:00,Quick question,"Following up on this: Not sure if this is expected behavior in data export or not, wanted to ask. Thanks in advance.",general_question,medium,7.9,resolved,4.0
+TCK-00194,CUST-0055,2026-05-29 00:00,Invoice request,"Following up on this: Our invoice total doesn't match what we expected this cycle, can you clarify the breakdown?",billing,low,9.7,resolved,3.0
+TCK-00195,CUST-0056,2026-06-12 00:00,Onboarding guidance,How do we get our whole team added with the right permissions? Happy to jump on a call if easier.,onboarding,high,,open,
+TCK-00196,CUST-0056,2026-05-14 00:00,Plan limits question,"Not sure if this is expected behavior in notifications or not, wanted to ask. Happy to jump on a call if easier.",general_question,low,3.3,resolved,1.0
+TCK-00197,CUST-0056,2026-07-10 00:00,Setup question,"Hi team, We're new and trying to set up the dashboard, could use some guidance. Thanks in advance.",Onboarding,medium,4.6,resolved,1.0
+TCK-00198,CUST-0056,2026-06-02 00:00,Small request,Following up on this: Our whole team would love to see keyboard shortcuts added to the API. Happy to jump on a call if easier.,feature_request,medium,5.0,resolved,3.0
+TCK-00199,CUST-0057,2026-05-11 00:00,Refund policy question,Trying to understand the refund policy — is it different for annual vs monthly plans? Happy to jump on a call if easier.,billing,low,48.7,resolved,1.0
+TCK-00200,CUST-0058,2026-06-20 00:00,Small request,Following up on this: Small suggestion: could the reporting tool have a dark mode option at some point?,feature_request,medium,6.1,resolved,5.0
+TCK-00201,CUST-0058,2026-07-13 00:00,Enhancement idea,"Hi team, Would it be possible to add more customization to the mobile app? No rush on this. Not sure if this is expected.",feature_request,low,14.9,resolved,1.0
+TCK-00202,CUST-0058,2026-05-12 00:00,Setup question,Quick one — Is there a guide for connecting the mobile app to our existing tools? Appreciate the help.,onboarding,high,5.2,resolved,3.0
+TCK-00203,CUST-0059,2026-05-17 00:00,Export issue,"It's fine I guess, just not what we expected honestly.",bug,high,,open,
+TCK-00204,CUST-0059,2026-05-21 00:00,Enhancement idea,Most of the account would love to see keyboard shortcuts added to the collaboration workspace.,feature_request,high,1.9,resolved,4.0
+TCK-00205,CUST-0059,2026-06-02 00:00,Unexpected bug,"It's fine I guess, just not what we expected honestly.",bug,medium,16.9,resolved,1.0
+TCK-00206,CUST-0059,2026-06-13 00:00,Plan limits question,"Hi team, Just checking what happens if our support lead goes over the seat limit.",general_question,low,31.9,resolved,5.0
+TCK-00207,CUST-0059,2026-07-13 00:00,Performance issue,Following up on this: The admin console has been timing out for a few of us on and off for a week. Happy to jump on a call if easier.,technical_issue,high,2.1,resolved,2.0
+TCK-00208,CUST-0060,2026-06-18 00:00,Would be nice to have,Following up on this: Our whole team would love to see keyboard shortcuts added to data export.,feature_request,low,,pending,
+TCK-00209,CUST-0061,2026-06-16 00:00,Access request,"Following up on this: One of our admins can no longer log in, seems related to two-factor authentication. Appreciate the help.",account_access,medium,,open,
+TCK-00210,CUST-0061,2026-06-27 00:00,Unexpected bug,"Hello, Getting a blank screen when opening the admin console, happening for our whole team. Let me know what you need from us.",bug,low,9.1,resolved,4.0
+TCK-00211,CUST-0062,2026-06-02 00:00,Onboarding guidance,"Hi team, How do we get just me so far added with the right permissions? Not sure if this is expected.",onboarding,medium,23.5,resolved,4.0
+TCK-00212,CUST-0062,2026-07-11 00:00,Invoice request,"We upgraded plans recently and the billing amount looks off, can you confirm it's correct? Not sure if this is expected.",billing,low,77.7,resolved,2.0
+TCK-00213,CUST-0062,2026-06-12 00:00,Errors after update,"Hoping you can help: Search produced a corrupted result for the last few days, seems like a bug. Happy to jump on a call if easier.",bug,medium,,open,
+TCK-00214,CUST-0063,2026-05-03 00:00,Plan limits question,Hoping you can help: Wanted to confirm whether the reporting tool is included in our current plan. Not sure if this is expected.,general_question,high,4.2,resolved,2.0
+TCK-00215,CUST-0063,2026-07-10 00:00,Plan limits question,Hoping you can help: Quick question about how the mobile app handles larger data sets. Appreciate the help.,general_question,urgent,0.9,resolved,5.0
+TCK-00216,CUST-0063,2026-06-07 00:00,Quick question,"Not sure if this is expected behavior in bulk editing or not, wanted to ask. Happy to jump on a call if easier.",general_question,low,,pending,
+TCK-00217,CUST-0064,2026-06-19 00:00,Clarifying a feature,"Not sure if this is expected behavior in the reporting tool or not, wanted to ask. Appreciate the help.",general_question,low,53.0,resolved,3.0
+TCK-00218,CUST-0064,2026-05-10 00:00,Feature suggestion,Team's a little frustrated but we'll manage for now.,feature_request,urgent,2.8,resolved,3.0
+TCK-00219,CUST-0064,2026-05-18 00:00,Help setting up,"Following up on this: Our whole team is still getting familiar with search, any onboarding resources available? Not sure if this is expected.",onboarding,low,8.0,resolved,4.0
+TCK-00220,CUST-0064,2026-06-30 00:00,Quick question,,general_question,low,4.6,resolved,5.0
+TCK-00221,CUST-0065,2026-04-28 00:00,Refund policy question,"Quick one — We upgraded plans recently and the billing amount looks off, can you confirm it's correct?",billing,medium,,pending,
+TCK-00222,CUST-0065,2026-04-26 00:00,Dashboard not loading,Hoping you can help: Sync between our account and the collaboration workspace keeps failing halfway through. Appreciate the help.,technical_issue,medium,17.1,resolved,3.0
+TCK-00223,CUST-0066,2026-05-13 00:00,Help setting up,"Hoping you can help: We're new and trying to set up bulk editing, could use some guidance. Appreciate the help.",onboarding,high,4.1,resolved,3.0
+TCK-00224,CUST-0066,2026-06-23 00:00,Question about invoice,"Hi team, Trying to understand the refund policy — is it different for annual vs monthly plans? Appreciate the help.",billing,medium,8.5,resolved,3.0
+TCK-00225,CUST-0066,2026-04-30 00:00,Question about invoice,"Quick one — Our whole team noticed an unexpected charge on the latest invoice, can someone take a look?",Billing,low,,open,
+TCK-00226,CUST-0066,2026-06-03 00:00,Small request,Could be worse. Could be better too. Let us know if there's an update coming.,feature_request,low,28.7,resolved,4.0
+TCK-00227,CUST-0066,2026-06-11 00:00,Locked out of account,"Quick one — One of our admins can no longer log in, seems related to two-factor authentication. Appreciate the help.",account_access,low,34.3,resolved,4.0
+TCK-00228,CUST-0067,2026-07-13 00:00,Quick question,Hoping you can help: Wanted to confirm whether the mobile app is included in our current plan. Happy to jump on a call if easier.,general_question,medium,6.4,resolved,2.0
+TCK-00229,CUST-0068,2026-05-31 00:00,Billing discrepancy,"Hoping you can help: A few of us noticed an unexpected charge on the latest invoice, can someone take a look? Thanks in advance.",billing,urgent,1.3,resolved,4.0
+TCK-00230,CUST-0068,2026-05-19 00:00,Errors after update,"Hi team, Getting a blank screen when opening the collaboration workspace, happening for our whole team. Thanks in advance.",bug,low,31.6,resolved,2.0
+TCK-00231,CUST-0068,2026-04-23 00:00,Feature suggestion,"Hello, Not urgent, but it'd help a lot if notifications supported bulk actions.",feature_request,low,11.6,resolved,5.0
+TCK-00232,CUST-0069,2026-05-10 00:00,Login problem,Hoping you can help: Just me so far should have edit access to the API but only has view rights. Happy to jump on a call if easier.,account_access,high,2.6,resolved,5.0
+TCK-00233,CUST-0070,2026-06-20 00:00,Quick question,"Hi team, Wanted to confirm whether notifications is included in our current plan. Happy to jump on a call if easier.",general_question,medium,,open,
+TCK-00234,CUST-0070,2026-05-14 00:00,Login problem,"One of our admins can no longer log in, seems related to two-factor authentication. Thanks in advance.",account_access,low,16.7,resolved,5.0
+TCK-00235,CUST-0071,2026-05-14 00:00,Billing discrepancy,"Following up on this: Our invoice total doesn't match what we expected this cycle, can you clarify the breakdown?",billing,medium,,open,
+TCK-00236,CUST-0071,2026-05-22 00:00,Quick question,Hoping you can help: Wanted to confirm whether the calendar sync is included in our current plan.,general_question,medium,12.1,resolved,5.0
+TCK-00237,CUST-0072,2026-05-21 00:00,Setup question,"Hello, Is there a guide for connecting the Slack integration to our existing tools?",onboarding,low,,pending,
+TCK-00238,CUST-0072,2026-07-13 00:00,Sync errors,Hoping you can help: Sync between our account and search keeps failing halfway through. Not sure if this is expected.,technical_issue,low,7.7,resolved,2.0
+TCK-00239,CUST-0073,2026-05-22 00:00,Small request,,feature_request,urgent,2.6,resolved,3.0
+TCK-00240,CUST-0073,2026-07-01 00:00,Small request,Following up on this: Just a thought — an export option directly from data export would be handy. Happy to jump on a call if easier.,feature_request,low,42.9,resolved,4.0
+TCK-00241,CUST-0073,2026-06-29 00:00,Question about invoice,"Hoping you can help: We upgraded plans recently and the billing amount looks off, can you confirm it's correct?",billing,high,0.9,resolved,3.0
+TCK-00242,CUST-0073,2026-06-02 00:00,Login problem,"Hi team, Can you reset access for a teammate who's locked out of the account? Let me know what you need from us.",account_access,high,3.4,resolved,3.0
+TCK-00243,CUST-0073,2026-06-05 00:00,Errors after update,Team's a little frustrated but we'll manage for now.,bug,high,,pending,
+TCK-00244,CUST-0074,2026-06-29 00:00,Connectivity problem,"Hoping you can help: We keep getting disconnected while using the Slack integration, since Monday.",technical_issue,urgent,1.5,resolved,4.0
+TCK-00245,CUST-0075,2026-06-01 00:00,Quick question,,general_question,low,15.5,resolved,5.0
+TCK-00246,CUST-0076,2026-07-09 00:00,Dashboard not loading,Quick one — Search has been timing out for our ops team this morning. Thanks in advance.,technical_issue,low,18.7,resolved,4.0
+TCK-00247,CUST-0076,2026-06-25 00:00,Sync errors,"We keep getting disconnected while using the dashboard, every time we try. Thanks in advance.",technical_issue,low,11.3,resolved,5.0
+TCK-00248,CUST-0076,2026-04-18 00:00,Question about invoice,Can we get an itemized invoice for this month? our support lead needs it for expense reporting.,billing,medium,6.0,resolved,4.0
+TCK-00249,CUST-0076,2026-05-08 00:00,General inquiry,Hoping you can help: Just checking what happens if just me so far goes over the seat limit.,general_question,medium,5.8,resolved,4.0
+TCK-00250,CUST-0076,2026-04-26 00:00,Clarifying a feature,Wanted to confirm whether data export is included in our current plan. Not sure if this is expected.,general_question,low,,open,
+TCK-00251,CUST-0076,2026-06-10 00:00,General inquiry,Quick question about how the dashboard handles larger data sets. Appreciate the help.,general_question,medium,8.5,resolved,4.0
+TCK-00252,CUST-0077,2026-07-14 00:00,Small request,Quick one — Everyone on the Pro plan would love to see keyboard shortcuts added to the API. Let me know what you need from us.,feature_request,medium,0.5,resolved,3.0
+TCK-00253,CUST-0078,2026-06-15 00:00,Plan limits question,Hoping you can help: Just checking what happens if just me so far goes over the seat limit. Let me know what you need from us.,general_question,medium,10.1,resolved,1.0
+TCK-00254,CUST-0078,2026-06-09 00:00,Performance issue,Quick one — Our ops team can't get the API to load properly for a couple of hours now. Thanks in advance.,technical_issue,low,32.1,resolved,5.0
+TCK-00255,CUST-0078,2026-05-11 00:00,Would be nice to have,Following up on this: Would it be possible to add more customization to the dashboard? No rush on this. Thanks in advance.,feature_request,medium,10.5,resolved,4.0
+TCK-00256,CUST-0078,2026-05-18 00:00,General inquiry,"Quick one — Not sure if this is expected behavior in the collaboration workspace or not, wanted to ask. Let me know what you need from us.",general_question,low,24.8,resolved,2.0
+TCK-00257,CUST-0079,2026-06-28 00:00,Permission issue,"Hi team, Can you reset access for a teammate who's locked out of the account?",account_access,medium,,open,
+TCK-00258,CUST-0079,2026-04-24 00:00,General inquiry,"Following up on this: Not sure if this is expected behavior in notifications or not, wanted to ask. Thanks in advance.",general_question,medium,7.6,resolved,5.0
+TCK-00259,CUST-0079,2026-05-07 00:00,Quick question,Quick one — Just checking what happens if our whole team goes over the seat limit. Thanks in advance.,general_question,low,,open,
+TCK-00260,CUST-0080,2026-06-02 00:00,General inquiry,Following up on this: Wanted to confirm whether the API is included in our current plan. Thanks in advance.,General_question,medium,5.3,resolved,4.0
+TCK-00261,CUST-0081,2026-05-03 00:00,Clarifying a feature,"Not a big deal most days, just an occasional annoyance.",general_question,urgent,,open,
+TCK-00262,CUST-0081,2026-06-24 00:00,Would be nice to have,,Feature_request,low,109.5,resolved,4.0
+TCK-00263,CUST-0082,2026-04-20 00:00,Performance issue,Quick one — Just me so far can't get the reporting tool to load properly since Monday. Let me know what you need from us.,technical_issue,medium,15.7,resolved,3.0
+TCK-00264,CUST-0082,2026-06-10 00:00,Plan limits question,Quick one — Wanted to confirm whether the calendar sync is included in our current plan. Thanks in advance.,general_question,low,18.8,resolved,5.0
+TCK-00265,CUST-0082,2026-06-06 00:00,Login problem,Can you reset access for a teammate who's locked out of the account? Thanks in advance.,account_access,low,,pending,
+TCK-00266,CUST-0082,2026-05-23 00:00,Access request,Hoping you can help: A few of us should have edit access to the collaboration workspace but only has view rights. Let me know what you need from us.,Account_access,high,3.3,resolved,4.0
+TCK-00267,CUST-0082,2026-06-16 00:00,Performance issue,Could be worse. Could be better too. Let us know if there's an update coming.,technical_issue,urgent,1.8,resolved,4.0
+TCK-00268,CUST-0083,2026-06-26 00:00,Quick question,"Quick one — Not sure if this is expected behavior in bulk editing or not, wanted to ask. Appreciate the help.",general_question,low,29.0,resolved,4.0
+TCK-00269,CUST-0083,2026-06-02 00:00,Question about invoice,"We've gotten used to working around it, but figured we'd ask anyway.",billing,low,,open,
+TCK-00270,CUST-0084,2026-07-10 00:00,Dashboard not loading,"Hi team, We keep getting disconnected while using the collaboration workspace, on and off for a week. Thanks in advance.",technical_issue,medium,,open,
+TCK-00271,CUST-0084,2026-05-21 00:00,Quick question,Quick one — Just checking what happens if two of our admins goes over the seat limit. Not sure if this is expected.,general_question,medium,7.2,resolved,5.0
+TCK-00272,CUST-0085,2026-06-27 00:00,Permission issue,"Following up on this: One of our admins can no longer log in, seems related to two-factor authentication. Appreciate the help.",account_access,low,,open,
+TCK-00273,CUST-0085,2026-05-07 00:00,Clarifying a feature,Hoping you can help: Just checking what happens if everyone on the Pro plan goes over the seat limit. Happy to jump on a call if easier.,general_question,high,,pending,
+TCK-00274,CUST-0085,2026-05-19 00:00,Access request,Can you reset access for a teammate who's locked out of the account? Not sure if this is expected.,account_access,urgent,,open,
+TCK-00275,CUST-0086,2026-06-10 00:00,General inquiry,Hoping you can help: Quick question about how the mobile app handles larger data sets. Let me know what you need from us.,general_question,high,,open,
+TCK-00276,CUST-0086,2026-06-26 00:00,Billing discrepancy,"Quick one — Everyone on the Pro plan noticed an unexpected charge on the latest invoice, can someone take a look? Happy to jump on a call if easier.",billing,high,4.5,resolved,4.0
+TCK-00277,CUST-0086,2026-07-04 00:00,Question about invoice,"Hi team, Trying to understand the refund policy — is it different for annual vs monthly plans? Appreciate the help.",billing,low,53.8,resolved,1.0
+TCK-00278,CUST-0086,2026-05-16 00:00,Unexpected bug,"Something broke in the calendar sync since Monday, it was working fine before. Thanks in advance.",bug,low,-5.0,resolved,4.0
+TCK-00279,CUST-0086,2026-05-27 00:00,Quick question,Hoping you can help: Just checking what happens if most of the account goes over the seat limit. Appreciate the help.,general_question,low,5.9,resolved,2.0
+TCK-00280,CUST-0087,2026-07-07 00:00,Export issue,"Hello, The mobile app produced a corrupted result since yesterday, seems like a bug.",bug,high,2.2,resolved,4.0
+TCK-00281,CUST-0087,2026-06-28 00:00,Getting started question,Is there a guide for connecting search to our existing tools? Not sure if this is expected.,onboarding,low,29.7,resolved,5.0
+TCK-00282,CUST-0087,2026-06-17 00:00,Onboarding guidance,"Quick one — We're new and trying to set up the calendar sync, could use some guidance. Not sure if this is expected.",onboarding,high,,open,
+TCK-00283,CUST-0087,2026-06-20 00:00,Plan limits question,Following up on this: Quick question about how the dashboard handles larger data sets. Appreciate the help.,General_question,high,,open,
+TCK-00284,CUST-0087,2026-05-23 00:00,Invoice request,"Hi team, Our invoice total doesn't match what we expected this cycle, can you clarify the breakdown? Thanks in advance.",billing,medium,9.8,resolved,5.0
+TCK-00285,CUST-0089,2026-05-01 00:00,Clarifying a feature,"Not sure if this is expected behavior in data export or not, wanted to ask. Let me know what you need from us.",general_question,low,16.6,resolved,4.0
+TCK-00286,CUST-0089,2026-05-01 00:00,Enhancement idea,"Hi team, Small suggestion: could the mobile app have a dark mode option at some point? Appreciate the help.",feature_request,low,9.3,resolved,2.0
+TCK-00287,CUST-0089,2026-05-18 00:00,Clarifying a feature,"Hi team, Wanted to confirm whether bulk editing is included in our current plan.",general_question,high,0.3,resolved,5.0
+TCK-00288,CUST-0089,2026-06-27 00:00,Sync errors,Quick one — Data export has been timing out for a few of us since Monday. Let me know what you need from us.,Technical_issue,low,51.5,resolved,5.0
+TCK-00289,CUST-0090,2026-05-21 00:00,Plan limits question,Following up on this: Wanted to confirm whether the dashboard is included in our current plan. Let me know what you need from us.,general_question,medium,,open,
+TCK-00290,CUST-0090,2026-06-16 00:00,Billing discrepancy,"Hoping you can help: Our ops team noticed an unexpected charge on the latest invoice, can someone take a look? Appreciate the help.",billing,low,,pending,
+TCK-00291,CUST-0091,2026-07-03 00:00,Export issue,"Hoping you can help: Something broke in the admin console since we onboarded, it was working fine before.",bug,medium,4.7,resolved,3.0
+TCK-00292,CUST-0092,2026-04-24 00:00,Clarifying a feature,Wanted to confirm whether the calendar sync is included in our current plan. Not sure if this is expected.,general_question,medium,40.8,resolved,3.0
+TCK-00293,CUST-0092,2026-05-15 00:00,Access request,Two of our admins should have edit access to the Slack integration but only has view rights. Thanks in advance.,account_access,high,,pending,
+TCK-00294,CUST-0092,2026-06-10 00:00,Dashboard not loading,Team's a little frustrated but we'll manage for now.,technical_issue,low,37.5,resolved,5.0
+TCK-00295,CUST-0093,2026-07-06 00:00,Export issue,"Something broke in the calendar sync since we onboarded, it was working fine before.",bug,low,,open,
+TCK-00296,CUST-0093,2026-05-28 00:00,Errors after update,"Following up on this: Bulk editing produced a corrupted result this week, seems like a bug. Thanks in advance.",bug,low,,pending,
+TCK-00297,CUST-0093,2026-05-19 00:00,General inquiry,Following up on this: Quick question about how the collaboration workspace handles larger data sets. Thanks in advance.,general_question,low,31.1,resolved,5.0
+TCK-00298,CUST-0094,2026-07-13 00:00,Question about invoice,"Hi team, We were charged twice for the subscription this week, could you check our invoice?",billing,urgent,,open,
+TCK-00299,CUST-0094,2026-05-08 00:00,Setup question,Hoping you can help: Is there a guide for connecting the reporting tool to our existing tools?,onboarding,urgent,0.9,resolved,4.0
+TCK-00300,CUST-0094,2026-04-27 00:00,Setup question,How do we get a few of us added with the right permissions? Thanks in advance.,onboarding,low,26.0,resolved,3.0
+TCK-00301,CUST-0095,2026-06-16 00:00,Onboarding guidance,"We're new and trying to set up search, could use some guidance.",onboarding,medium,5.4,resolved,5.0
+TCK-00302,CUST-0095,2026-07-06 00:00,Quick question,"Quick one — Not sure if this is expected behavior in bulk editing or not, wanted to ask. Let me know what you need from us.",general_question,low,19.7,resolved,3.0
+TCK-00303,CUST-0095,2026-04-16 00:00,Quick question,"Hello, Quick question about how bulk editing handles larger data sets.",general_question,medium,9.5,resolved,2.0
+TCK-00304,CUST-0095,2026-04-30 00:00,Clarifying a feature,Hoping you can help: Wanted to confirm whether notifications is included in our current plan.,general_question,medium,-5.0,resolved,5.0
+TCK-00305,CUST-0095,2026-06-09 00:00,Question about invoice,"We were charged twice for bulk editing for the last few days, could you check our invoice? Appreciate the help.",billing,low,,pending,
+TCK-00306,CUST-0096,2026-04-25 00:00,Refund policy question,"We were charged twice for the Slack integration this morning, could you check our invoice?",billing,high,,pending,
+TCK-00307,CUST-0096,2026-05-03 00:00,Question about invoice,"Hello, Trying to understand the refund policy — is it different for annual vs monthly plans?",billing,medium,3.1,resolved,3.0
+TCK-00308,CUST-0096,2026-05-21 00:00,Help setting up,Quick one — Is there a guide for connecting notifications to our existing tools?,onboarding,low,,pending,
+TCK-00309,CUST-0096,2026-04-27 00:00,Refund policy question,"Hoping you can help: We upgraded plans recently and the billing amount looks off, can you confirm it's correct?",billing,high,3.3,resolved,4.0
+TCK-00310,CUST-0096,2026-06-24 00:00,Sync errors,"Hello, Notifications is extremely slow for a few of us since the latest update, is there a known issue? Thanks in advance.",technical_issue,low,8.7,resolved,5.0
+TCK-00311,CUST-0097,2026-04-18 00:00,Small request,Quick one — Small suggestion: could the admin console have a dark mode option at some point?,feature_request,low,48.4,resolved,5.0
+TCK-00312,CUST-0097,2026-05-10 00:00,Sync errors,"Hi team, The collaboration workspace has been timing out for just me so far every time we try.",technical_issue,medium,8.3,resolved,3.0
+TCK-00313,CUST-0097,2026-06-29 00:00,Billing discrepancy,Following up on this: Can we get an itemized invoice for this month? our ops team needs it for expense reporting. Not sure if this is expected.,billing,medium,11.1,resolved,5.0
+TCK-00314,CUST-0097,2026-05-18 00:00,Billing discrepancy,"Following up on this: We upgraded plans recently and the billing amount looks off, can you confirm it's correct?",billing,low,38.1,resolved,3.0
+TCK-00315,CUST-0098,2026-06-05 00:00,Plan limits question,Following up on this: Quick question about how the reporting tool handles larger data sets.,general_question,low,,open,
+TCK-00316,CUST-0098,2026-05-12 00:00,Plan limits question,Following up on this: Just checking what happens if just me so far goes over the seat limit. Not sure if this is expected.,general_question,low,18.2,resolved,4.0
+TCK-00317,CUST-0098,2026-05-12 00:00,Plan limits question,"Not sure if this is expected behavior in the mobile app or not, wanted to ask. Let me know what you need from us.",general_question,medium,5.8,resolved,4.0
+TCK-00318,CUST-0099,2026-04-23 00:00,General inquiry,"Hello, Not sure if this is expected behavior in the collaboration workspace or not, wanted to ask. Let me know what you need from us.",general_question,high,3.8,resolved,5.0
+TCK-00319,CUST-0099,2026-04-24 00:00,Performance issue,Following up on this: Two of our admins can't get bulk editing to load properly on and off for a week.,technical_issue,high,1.3,resolved,4.0
+TCK-00320,CUST-0099,2026-05-14 00:00,Billing discrepancy,"Hi team, We were charged twice for bulk editing on and off for a week, could you check our invoice? Not sure if this is expected.",billing,low,12.2,resolved,5.0
+TCK-00321,CUST-0100,2026-06-21 00:00,Quick question,Quick question about how bulk editing handles larger data sets.,general_question,medium,10.5,resolved,5.0
+TCK-00322,CUST-0100,2026-05-17 00:00,Plan limits question,"Hello, Wanted to confirm whether notifications is included in our current plan.",general_question,low,27.7,resolved,4.0
+TCK-00323,CUST-0100,2026-05-10 00:00,Performance issue,Following up on this: Sync between our account and the Slack integration keeps failing halfway through. Appreciate the help.,technical_issue,low,51.7,resolved,5.0
+TCK-00324,CUST-0101,2026-06-03 00:00,Sync errors,"Quick one — We keep getting disconnected while using search, for a couple of hours now.",Technical_issue,low,28.1,resolved,3.0
+TCK-00325,CUST-0101,2026-04-18 00:00,Quick question,"Quick one — Not sure if this is expected behavior in the API or not, wanted to ask. Appreciate the help.",general_question,urgent,1.8,resolved,5.0
+TCK-00326,CUST-0101,2026-06-25 00:00,Plan limits question,"Not sure if this is expected behavior in the admin console or not, wanted to ask.",general_question,urgent,1.7,resolved,5.0
+TCK-00327,CUST-0102,2026-07-07 00:00,Invoice request,"A few of us noticed an unexpected charge on the latest invoice, can someone take a look?",billing,urgent,2.3,resolved,4.0
+TCK-00328,CUST-0103,2026-05-16 00:00,Enhancement idea,"Not a big deal most days, just an occasional annoyance.",feature_request,urgent,1.7,resolved,5.0
+TCK-00329,CUST-0103,2026-06-17 00:00,Small request,Hoping you can help: Two of our admins would love to see keyboard shortcuts added to search. Let me know what you need from us.,feature_request,high,2.2,resolved,4.0
+TCK-00330,CUST-0103,2026-06-26 00:00,Export issue,"Hi team, Bulk editing produced a corrupted result since yesterday, seems like a bug. Thanks in advance.",bug,high,,open,
+TCK-00331,CUST-0103,2026-05-08 00:00,Plan limits question,"Following up on this: Not sure if this is expected behavior in data export or not, wanted to ask. Appreciate the help.",general_question,low,38.4,resolved,2.0
+TCK-00332,CUST-0103,2026-05-12 00:00,General inquiry,Quick one — Wanted to confirm whether data export is included in our current plan. Appreciate the help.,general_question,high,6.4,resolved,4.0
+TCK-00333,CUST-0104,2026-06-08 00:00,Sync errors,"Quick one — We keep getting disconnected while using the reporting tool, since Monday. Thanks in advance.",technical_issue,medium,11.4,resolved,3.0
+TCK-00334,CUST-0104,2026-07-11 00:00,Enhancement idea,Quick one — Two of our admins would love to see keyboard shortcuts added to data export. Appreciate the help.,feature_request,medium,4.8,resolved,5.0
+TCK-00335,CUST-0104,2026-07-02 00:00,Dashboard not loading,"We keep getting disconnected while using the collaboration workspace, since Monday.",technical_issue,low,9.0,resolved,5.0
+TCK-00336,CUST-0104,2026-07-14 00:00,Quick question,Wanted to confirm whether the collaboration workspace is included in our current plan. Not sure if this is expected.,general_question,low,12.0,resolved,5.0
+TCK-00337,CUST-0105,2026-04-22 00:00,Help setting up,Hoping you can help: How do we get everyone on the Pro plan added with the right permissions? Not sure if this is expected.,onboarding,low,4.1,resolved,3.0
+TCK-00338,CUST-0105,2026-04-21 00:00,Sync errors,"Hoping you can help: We keep getting disconnected while using the API, this week. Appreciate the help.",technical_issue,high,1.5,resolved,5.0
+TCK-00339,CUST-0105,2026-05-27 00:00,Performance issue,Our whole team can't get the dashboard to load properly since yesterday. Happy to jump on a call if easier.,Technical_issue,medium,13.6,resolved,5.0
+TCK-00340,CUST-0106,2026-05-07 00:00,Feature suggestion,"Quick one — Not urgent, but it'd help a lot if the admin console supported bulk actions.",feature_request,low,,pending,
+TCK-00341,CUST-0106,2026-07-05 00:00,Feature suggestion,Small suggestion: could search have a dark mode option at some point? Not sure if this is expected.,feature_request,low,17.6,resolved,5.0
+TCK-00342,CUST-0107,2026-05-04 00:00,Invoice request,"Hi team, Trying to understand the refund policy — is it different for annual vs monthly plans?",billing,low,,open,
+TCK-00343,CUST-0107,2026-05-26 00:00,Dashboard not loading,"Hoping you can help: The collaboration workspace is extremely slow for our whole team since yesterday, is there a known issue?",technical_issue,high,6.3,resolved,3.0
+TCK-00344,CUST-0107,2026-05-29 00:00,General inquiry,"Hi team, Not sure if this is expected behavior in the collaboration workspace or not, wanted to ask. Appreciate the help.",general_question,low,24.3,resolved,3.0
+TCK-00345,CUST-0108,2026-07-09 00:00,General inquiry,"This used to work better before, or maybe I'm misremembering.",general_question,low,,open,
+TCK-00346,CUST-0108,2026-04-21 00:00,Question about invoice,"Hoping you can help: Our invoice total doesn't match what we expected this cycle, can you clarify the breakdown? Let me know what you need from us.",billing,low,,open,
+TCK-00347,CUST-0109,2026-07-06 00:00,Plan limits question,"Not sure if this is expected behavior in the reporting tool or not, wanted to ask.",general_question,medium,8.1,resolved,5.0
+TCK-00348,CUST-0110,2026-06-22 00:00,General inquiry,Quick one — Quick question about how bulk editing handles larger data sets. Thanks in advance.,general_question,medium,24.9,resolved,4.0
+TCK-00349,CUST-0110,2026-04-24 00:00,Getting started question,Hoping you can help: How do we get just me so far added with the right permissions? Happy to jump on a call if easier.,onboarding,medium,6.1,resolved,3.0
+TCK-00350,CUST-0111,2026-05-25 00:00,Sync errors,Following up on this: The API has been timing out for everyone on the Pro plan for the last few days. Happy to jump on a call if easier.,technical_issue,medium,,open,
+TCK-00351,CUST-0111,2026-05-18 00:00,Dashboard not loading,,technical_issue,low,19.5,resolved,3.0
+TCK-00352,CUST-0111,2026-05-15 00:00,Access request,"Hi team, Can you reset access for a teammate who's locked out of the account?",account_access,low,,pending,
+TCK-00353,CUST-0111,2026-06-03 00:00,General inquiry,Quick question about how notifications handles larger data sets. Thanks in advance.,general_question,low,,open,
+TCK-00354,CUST-0112,2026-06-19 00:00,Refund policy question,Following up on this: Trying to understand the refund policy — is it different for annual vs monthly plans? Happy to jump on a call if easier.,billing,medium,25.9,resolved,3.0
+TCK-00355,CUST-0112,2026-05-23 00:00,Small request,Hoping you can help: Small suggestion: could search have a dark mode option at some point? Let me know what you need from us.,feature_request,urgent,,pending,
+TCK-00356,CUST-0112,2026-05-04 00:00,Quick question,Following up on this: Just checking what happens if our support lead goes over the seat limit.,General_question,medium,19.8,resolved,1.0
+TCK-00357,CUST-0113,2026-04-27 00:00,Errors after update,"Hi team, Something broke in the API since Monday, it was working fine before.",bug,low,,pending,
+TCK-00358,CUST-0113,2026-04-26 00:00,Login problem,Can you reset access for a teammate who's locked out of the account? Not sure if this is expected.,account_access,medium,,open,
+TCK-00359,CUST-0113,2026-05-09 00:00,Dashboard not loading,The calendar sync has been timing out for just me so far for a couple of hours now. Not sure if this is expected.,technical_issue,low,47.0,resolved,4.0
+TCK-00360,CUST-0113,2026-06-03 00:00,Unexpected bug,Following up on this: A few of us found that the admin console shows the wrong numbers compared to last week. Appreciate the help.,bug,low,,pending,
+TCK-00361,CUST-0114,2026-06-05 00:00,Access request,A few of us lost access to the dashboard after the last permissions change.,account_access,medium,,open,
+TCK-00362,CUST-0114,2026-04-29 00:00,Small request,Small suggestion: could the collaboration workspace have a dark mode option at some point?,feature_request,medium,3.1,resolved,5.0
+TCK-00363,CUST-0114,2026-05-06 00:00,Billing discrepancy,"Hello, We were charged twice for the mobile app this morning, could you check our invoice? Appreciate the help.",billing,low,29.1,resolved,3.0
+TCK-00364,CUST-0114,2026-05-23 00:00,Clarifying a feature,"Hi team, Just checking what happens if everyone on the Pro plan goes over the seat limit. Appreciate the help.",general_question,medium,,pending,
+TCK-00365,CUST-0114,2026-04-21 00:00,Dashboard not loading,The admin console has been timing out for our whole team since Monday. Thanks in advance.,technical_issue,urgent,,open,
+TCK-00366,CUST-0115,2026-06-01 00:00,Quick question,"Hello, Just checking what happens if a few of us goes over the seat limit. Happy to jump on a call if easier.",general_question,high,7.5,resolved,5.0
+TCK-00367,CUST-0115,2026-05-29 00:00,Setup question,Following up on this: How do we get our support lead added with the right permissions?,onboarding,low,27.4,resolved,5.0
+TCK-00368,CUST-0115,2026-05-12 00:00,Enhancement idea,"Hello, Would it be possible to add more customization to the admin console? No rush on this. Not sure if this is expected.",feature_request,low,35.0,resolved,4.0
+TCK-00369,CUST-0116,2026-05-24 00:00,Sync errors,,technical_issue,low,13.3,resolved,2.0
+TCK-00370,CUST-0116,2026-04-18 00:00,Question about invoice,Can we get an itemized invoice for this month? a few of us needs it for expense reporting. Let me know what you need from us.,billing,medium,4.0,resolved,3.0
+TCK-00371,CUST-0117,2026-05-18 00:00,Plan limits question,Wanted to confirm whether the calendar sync is included in our current plan. Not sure if this is expected.,general_question,urgent,1.7,resolved,4.0
+TCK-00372,CUST-0118,2026-06-25 00:00,Setup question,"Hoping you can help: We're new and trying to set up notifications, could use some guidance. Appreciate the help.",onboarding,low,11.5,resolved,4.0
+TCK-00373,CUST-0119,2026-05-23 00:00,General inquiry,Can't quite tell if this is expected or if something changed recently.,general_question,medium,4.5,resolved,5.0
+TCK-00374,CUST-0119,2026-05-10 00:00,Plan limits question,Hoping you can help: Quick question about how data export handles larger data sets. Not sure if this is expected.,general_question,low,,pending,
+TCK-00375,CUST-0119,2026-04-18 00:00,Clarifying a feature,"Not sure if this is expected behavior in the collaboration workspace or not, wanted to ask. Appreciate the help.",general_question,medium,,pending,
+TCK-00376,CUST-0120,2026-05-13 00:00,Plan limits question,"Following up on this: Not sure if this is expected behavior in search or not, wanted to ask. Thanks in advance.",general_question,low,,pending,
+TCK-00377,CUST-0120,2026-06-26 00:00,Performance issue,Following up on this: Search has been timing out for most of the account this week. Not sure if this is expected.,technical_issue,medium,30.2,resolved,3.0
+TCK-00378,CUST-0120,2026-05-04 00:00,Performance issue,"Bulk editing is extremely slow for our ops team since Monday, is there a known issue?",technical_issue,high,6.3,resolved,4.0
+TCK-00379,CUST-0122,2026-05-13 00:00,Invoice request,"Might be nothing, but wanted to mention it just in case.",billing,medium,30.1,resolved,5.0
+TCK-00380,CUST-0122,2026-06-22 00:00,Access request,"Quick one — One of our admins can no longer log in, seems related to two-factor authentication. Not sure if this is expected.",account_access,high,3.7,resolved,4.0
+TCK-00381,CUST-0123,2026-05-20 00:00,Help setting up,"We're new and trying to set up data export, could use some guidance. Happy to jump on a call if easier.",onboarding,high,,open,
+TCK-00382,CUST-0123,2026-06-04 00:00,Dashboard not loading,Not sure if this is a bug or just how it works now?,technical_issue,low,,open,
+TCK-00383,CUST-0123,2026-04-25 00:00,Getting started question,Hoping you can help: Is there a guide for connecting the dashboard to our existing tools?,onboarding,medium,23.3,resolved,3.0
+TCK-00384,CUST-0124,2026-05-27 00:00,Invoice request,"This used to work better before, or maybe I'm misremembering.",billing,medium,,open,
+TCK-00385,CUST-0124,2026-06-11 00:00,Sync errors,"Hello, The admin console has been timing out for our ops team since the latest update.",technical_issue,high,,pending,
+TCK-00386,CUST-0124,2026-06-05 00:00,Connectivity problem,"Hoping you can help: We keep getting disconnected while using the admin console, since Monday. Thanks in advance.",technical_issue,medium,1.6,resolved,4.0
+TCK-00387,CUST-0124,2026-07-05 00:00,Clarifying a feature,Just checking what happens if a few of us goes over the seat limit.,general_question,high,7.4,resolved,4.0
+TCK-00388,CUST-0124,2026-04-24 00:00,Sync errors,"Hello, We keep getting disconnected while using the mobile app, this week. Let me know what you need from us.",technical_issue,medium,12.3,resolved,3.0
+TCK-00389,CUST-0124,2026-04-29 00:00,Question about invoice,"Our invoice total doesn't match what we expected this cycle, can you clarify the breakdown? Not sure if this is expected.",billing,urgent,0.8,resolved,4.0
+TCK-00390,CUST-0124,2026-06-20 00:00,General inquiry,"Quick one — Not sure if this is expected behavior in the mobile app or not, wanted to ask.",general_question,low,37.5,resolved,4.0
+TCK-00391,CUST-0124,2026-05-25 00:00,Locked out of account,Most of the account lost access to the calendar sync after the last permissions change. Appreciate the help.,account_access,medium,16.4,resolved,1.0
+TCK-00392,CUST-0125,2026-05-22 00:00,Getting started question,"Quick one — A few of us is still getting familiar with the API, any onboarding resources available? Appreciate the help.",onboarding,low,191.4,resolved,5.0
+TCK-00393,CUST-0125,2026-06-18 00:00,Permission issue,Quick one — A few of us lost access to the reporting tool after the last permissions change.,account_access,medium,11.7,resolved,5.0
+TCK-00394,CUST-0125,2026-06-21 00:00,Clarifying a feature,,General_question,low,38.4,resolved,4.0
+TCK-00395,CUST-0125,2026-05-15 00:00,Getting started question,"Quick one — We're new and trying to set up notifications, could use some guidance.",onboarding,high,9.7,resolved,4.0
+TCK-00396,CUST-0125,2026-06-18 00:00,Connectivity problem,Following up on this: Sync between our account and bulk editing keeps failing halfway through.,technical_issue,medium,2.9,resolved,5.0
+TCK-00397,CUST-0126,2026-05-04 00:00,Quick question,Quick question about how the dashboard handles larger data sets. Happy to jump on a call if easier.,general_question,low,,open,
+TCK-00398,CUST-0126,2026-05-27 00:00,Quick question,Wanted to confirm whether bulk editing is included in our current plan. Let me know what you need from us.,general_question,medium,9.2,resolved,4.0
+TCK-00399,CUST-0126,2026-06-27 00:00,Quick question,"Hoping you can help: Not sure if this is expected behavior in the reporting tool or not, wanted to ask. Appreciate the help.",general_question,low,,pending,
+TCK-00400,CUST-0126,2026-06-26 00:00,Onboarding guidance,How do we get our ops team added with the right permissions? Not sure if this is expected.,onboarding,urgent,,open,
+TCK-00401,CUST-0126,2026-04-20 00:00,Export issue,"Following up on this: Getting a blank screen when opening the admin console, happening for just me so far. Not sure if this is expected.",bug,low,23.5,resolved,3.0
+TCK-00402,CUST-0127,2026-05-24 00:00,Incorrect data shown,"Hello, Getting a blank screen when opening notifications, happening for a few of us. Let me know what you need from us.",bug,medium,29.6,resolved,4.0
+TCK-00403,CUST-0127,2026-04-20 00:00,Connectivity problem,Quick one — Search has been timing out for just me so far since the latest update. Appreciate the help.,technical_issue,high,4.0,resolved,4.0
+TCK-00404,CUST-0127,2026-07-03 00:00,Unexpected bug,"Hoping you can help: The calendar sync produced a corrupted result on and off for a week, seems like a bug. Not sure if this is expected.",Bug,low,49.5,resolved,4.0
+TCK-00405,CUST-0128,2026-06-10 00:00,Permission issue,Quick one — Two of our admins lost access to search after the last permissions change. Happy to jump on a call if easier.,account_access,medium,2.1,resolved,4.0
+TCK-00406,CUST-0129,2026-06-06 00:00,Billing discrepancy,Following up on this: Trying to understand the refund policy — is it different for annual vs monthly plans?,billing,medium,5.3,resolved,5.0
+TCK-00407,CUST-0129,2026-07-12 00:00,Question about invoice,"Hoping you can help: We were charged twice for the reporting tool for the last few days, could you check our invoice? Thanks in advance.",billing,medium,,open,
+TCK-00408,CUST-0129,2026-05-18 00:00,Invoice request,"Hello, Our invoice total doesn't match what we expected this cycle, can you clarify the breakdown?",billing,low,,open,
+TCK-00409,CUST-0129,2026-07-06 00:00,Refund policy question,"Hello, Our invoice total doesn't match what we expected this cycle, can you clarify the breakdown? Appreciate the help.",billing,medium,1.1,resolved,2.0
+TCK-00410,CUST-0131,2026-06-23 00:00,Would be nice to have,Quick one — Small suggestion: could search have a dark mode option at some point? Not sure if this is expected.,feature_request,low,38.0,resolved,4.0
+TCK-00411,CUST-0131,2026-07-12 00:00,Billing discrepancy,"Hello, Can we get an itemized invoice for this month? everyone on the Pro plan needs it for expense reporting.",Billing,medium,,pending,
+TCK-00412,CUST-0132,2026-06-04 00:00,Performance issue,The calendar sync has been timing out for our ops team on and off for a week. Let me know what you need from us.,technical_issue,low,0.6,resolved,3.0
+TCK-00413,CUST-0132,2026-07-11 00:00,Feature suggestion,"Not urgent, but it'd help a lot if the mobile app supported bulk actions. Thanks in advance.",feature_request,low,16.9,resolved,5.0
+TCK-00414,CUST-0132,2026-04-20 00:00,Performance issue,"Hello, We keep getting disconnected while using the collaboration workspace, this week. Appreciate the help.",technical_issue,low,30.9,resolved,5.0
+TCK-00415,CUST-0132,2026-05-08 00:00,Plan limits question,"Hi team, Wanted to confirm whether the mobile app is included in our current plan.",general_question,low,35.9,resolved,5.0
+TCK-00416,CUST-0132,2026-05-20 00:00,Plan limits question,Just checking what happens if our whole team goes over the seat limit. Let me know what you need from us.,general_question,urgent,-5.0,resolved,4.0
+TCK-00417,CUST-0133,2026-07-14 00:00,Connectivity problem,"The dashboard is extremely slow for our support lead for the last few days, is there a known issue? Let me know what you need from us.",technical_issue,urgent,3.1,resolved,3.0
+TCK-00418,CUST-0133,2026-05-30 00:00,Sync errors,Just me so far can't get notifications to load properly since Monday. Let me know what you need from us.,technical_issue,medium,,open,
+TCK-00419,CUST-0134,2026-06-12 00:00,Enhancement idea,Hoping you can help: Would it be possible to add more customization to data export? No rush on this. Let me know what you need from us.,feature_request,low,,pending,
+TCK-00420,CUST-0134,2026-07-05 00:00,Login problem,"Hi team, Can you reset access for a teammate who's locked out of the account? Not sure if this is expected.",account_access,low,16.0,resolved,5.0
+TCK-00421,CUST-0134,2026-07-13 00:00,Access request,"One of our admins can no longer log in, seems related to two-factor authentication. Thanks in advance.",account_access,urgent,,open,
+TCK-00422,CUST-0135,2026-07-07 00:00,Question about invoice,"Everyone on the Pro plan noticed an unexpected charge on the latest invoice, can someone take a look? Let me know what you need from us.",billing,low,58.2,resolved,1.0
+TCK-00423,CUST-0135,2026-05-12 00:00,Invoice request,"Hello, Can we get an itemized invoice for this month? our ops team needs it for expense reporting. Let me know what you need from us.",billing,low,,open,
+TCK-00424,CUST-0135,2026-06-30 00:00,Connectivity problem,"Quick one — We keep getting disconnected while using the mobile app, since the latest update. Happy to jump on a call if easier.",technical_issue,low,,open,
+TCK-00425,CUST-0136,2026-06-07 00:00,Feature suggestion,"Hello, Small suggestion: could search have a dark mode option at some point? Let me know what you need from us.",feature_request,low,9.2,resolved,5.0
+TCK-00426,CUST-0136,2026-05-08 00:00,Dashboard not loading,"Hi team, We keep getting disconnected while using the API, this week. Not sure if this is expected.",technical_issue,high,1.7,resolved,5.0
+TCK-00427,CUST-0136,2026-04-27 00:00,Quick question,Not sure if this is a bug or just how it works now?,general_question,low,33.5,resolved,4.0
+TCK-00428,CUST-0136,2026-06-25 00:00,Dashboard not loading,"Hoping you can help: Data export is extremely slow for just me so far on and off for a week, is there a known issue? Happy to jump on a call if easier.",technical_issue,low,28.6,resolved,4.0
+TCK-00429,CUST-0136,2026-06-16 00:00,Onboarding guidance,"Hi team, Is there a guide for connecting notifications to our existing tools? Appreciate the help.",onboarding,high,0.7,resolved,4.0
+TCK-00430,CUST-0136,2026-04-27 00:00,Clarifying a feature,Quick one — Wanted to confirm whether bulk editing is included in our current plan.,general_question,low,88.1,resolved,3.0
+TCK-00431,CUST-0137,2026-06-15 00:00,Connectivity problem,"We keep getting disconnected while using the API, since the latest update.",technical_issue,low,53.6,resolved,3.0
+TCK-00432,CUST-0137,2026-07-03 00:00,Connectivity problem,"Following up on this: We keep getting disconnected while using the reporting tool, since Monday.",technical_issue,medium,15.3,resolved,4.0
+TCK-00433,CUST-0137,2026-05-16 00:00,General inquiry,"Hello, Quick question about how the admin console handles larger data sets. Not sure if this is expected.",general_question,medium,,pending,
+TCK-00434,CUST-0137,2026-07-07 00:00,Invoice request,"Hi team, Our ops team noticed an unexpected charge on the latest invoice, can someone take a look?",billing,low,60.7,resolved,3.0
+TCK-00435,CUST-0138,2026-06-18 00:00,Question about invoice,"Our support lead noticed an unexpected charge on the latest invoice, can someone take a look? Thanks in advance.",billing,high,1.9,resolved,4.0
+TCK-00436,CUST-0138,2026-07-10 00:00,Clarifying a feature,Following up on this: Wanted to confirm whether the admin console is included in our current plan.,general_question,low,39.5,resolved,4.0
+TCK-00437,CUST-0138,2026-05-17 00:00,Dashboard not loading,Following up on this: Data export has been timing out for just me so far for a couple of hours now.,technical_issue,high,,open,
+TCK-00438,CUST-0138,2026-04-20 00:00,General inquiry,"Hello, Wanted to confirm whether the calendar sync is included in our current plan. Happy to jump on a call if easier.",general_question,low,42.6,resolved,5.0
+TCK-00439,CUST-0138,2026-06-20 00:00,Small request,Just a thought — an export option directly from the collaboration workspace would be handy. Let me know what you need from us.,feature_request,low,,pending,
+TCK-00440,CUST-0138,2026-04-26 00:00,General inquiry,"Hi team, Just checking what happens if most of the account goes over the seat limit.",general_question,low,,open,
+TCK-00441,CUST-0138,2026-04-18 00:00,Permission issue,"Hi team, Can you reset access for a teammate who's locked out of the account? Appreciate the help.",account_access,high,6.8,resolved,5.0
+TCK-00442,CUST-0139,2026-05-11 00:00,Connectivity problem,,technical_issue,low,,pending,
+TCK-00443,CUST-0139,2026-05-05 00:00,Quick question,"Quick one — Not sure if this is expected behavior in data export or not, wanted to ask.",general_question,low,13.0,resolved,2.0
+TCK-00444,CUST-0140,2026-04-27 00:00,Would be nice to have,Our whole team would love to see keyboard shortcuts added to the reporting tool. Not sure if this is expected.,feature_request,medium,,open,
+TCK-00445,CUST-0140,2026-07-09 00:00,Connectivity problem,"Hello, We keep getting disconnected while using the API, since the latest update. Not sure if this is expected.",technical_issue,medium,7.4,resolved,4.0
+TCK-00446,CUST-0140,2026-05-08 00:00,General inquiry,Just checking what happens if most of the account goes over the seat limit.,general_question,low,32.2,resolved,5.0
+TCK-00447,CUST-0140,2026-05-03 00:00,Feature suggestion,Hoping you can help: Just a thought — an export option directly from bulk editing would be handy. Let me know what you need from us.,feature_request,medium,17.9,resolved,1.0
+TCK-00448,CUST-0141,2026-06-01 00:00,Onboarding guidance,"Following up on this: Two of our admins is still getting familiar with the reporting tool, any onboarding resources available? Happy to jump on a call if easier.",onboarding,low,27.7,resolved,3.0
+TCK-00449,CUST-0141,2026-04-18 00:00,Getting started question,"Quick one — Two of our admins is still getting familiar with the reporting tool, any onboarding resources available? Let me know what you need from us.",onboarding,medium,9.4,resolved,4.0
+TCK-00450,CUST-0142,2026-05-02 00:00,Question about invoice,"Hi team, Trying to understand the refund policy — is it different for annual vs monthly plans? Appreciate the help.",Billing,high,,pending,
+TCK-00451,CUST-0142,2026-05-06 00:00,Connectivity problem,Quick one — Our whole team can't get the dashboard to load properly every time we try. Happy to jump on a call if easier.,technical_issue,low,,open,
+TCK-00452,CUST-0142,2026-06-30 00:00,Plan limits question,"This used to work better before, or maybe I'm misremembering.",general_question,low,9.6,resolved,3.0
+TCK-00453,CUST-0142,2026-05-29 00:00,Small request,"Hi team, Not urgent, but it'd help a lot if the API supported bulk actions.",feature_request,high,6.5,resolved,4.0
+TCK-00454,CUST-0142,2026-06-18 00:00,Login problem,"Hello, Can you reset access for a teammate who's locked out of the account? Appreciate the help.",account_access,low,16.2,resolved,5.0
+TCK-00455,CUST-0142,2026-05-08 00:00,Refund policy question,"Quick one — Our invoice total doesn't match what we expected this cycle, can you clarify the breakdown?",billing,low,6.8,resolved,4.0
+TCK-00456,CUST-0142,2026-06-20 00:00,Getting started question,"We're new and trying to set up the admin console, could use some guidance. Appreciate the help.",onboarding,high,2.5,resolved,5.0
+TCK-00457,CUST-0142,2026-06-21 00:00,Quick question,"Not a big deal most days, just an occasional annoyance.",general_question,low,17.0,resolved,5.0
+TCK-00458,CUST-0142,2026-06-30 00:00,Question about invoice,"Hard to tell if this is on our end or yours, just flagging it.",billing,low,42.6,resolved,4.0
+TCK-00459,CUST-0143,2026-06-12 00:00,Quick question,Wanted to confirm whether the admin console is included in our current plan.,general_question,low,,open,
+TCK-00460,CUST-0143,2026-05-21 00:00,Billing discrepancy,"Our invoice total doesn't match what we expected this cycle, can you clarify the breakdown? Not sure if this is expected.",billing,medium,10.3,resolved,3.0
+TCK-00461,CUST-0143,2026-06-12 00:00,Login problem,Hoping you can help: Can you reset access for a teammate who's locked out of the account?,account_access,medium,1.1,resolved,5.0
+TCK-00462,CUST-0143,2026-07-02 00:00,Setup question,Is there a guide for connecting the collaboration workspace to our existing tools? Let me know what you need from us.,onboarding,high,13.4,resolved,4.0
+TCK-00463,CUST-0144,2026-06-15 00:00,Help setting up,Team's a little frustrated but we'll manage for now.,onboarding,medium,12.0,resolved,4.0
+TCK-00464,CUST-0144,2026-06-30 00:00,Question about invoice,Not sure if this is a bug or just how it works now?,billing,low,3.2,resolved,4.0
+TCK-00465,CUST-0144,2026-05-18 00:00,Enhancement idea,Can't quite tell if this is expected or if something changed recently.,feature_request,low,15.5,resolved,5.0
+TCK-00466,CUST-0144,2026-06-27 00:00,Performance issue,"Hello, The dashboard is extremely slow for a few of us since the latest update, is there a known issue?",technical_issue,high,11.7,resolved,3.0
+TCK-00467,CUST-0145,2026-06-30 00:00,Would be nice to have,Following up on this: Two of our admins would love to see keyboard shortcuts added to the calendar sync.,feature_request,low,10.6,resolved,4.0
+TCK-00468,CUST-0145,2026-06-03 00:00,Enhancement idea,"Hi team, Not urgent, but it'd help a lot if the collaboration workspace supported bulk actions. Appreciate the help.",feature_request,high,2.3,resolved,1.0
+TCK-00469,CUST-0145,2026-05-15 00:00,Performance issue,Hoping you can help: Sync between our account and data export keeps failing halfway through. Not sure if this is expected.,technical_issue,low,,pending,
+TCK-00470,CUST-0145,2026-04-17 00:00,Incorrect data shown,"This used to work better before, or maybe I'm misremembering.",bug,low,,pending,
+TCK-00471,CUST-0145,2026-05-03 00:00,Login problem,"It's fine I guess, just not what we expected honestly.",account_access,urgent,1.3,resolved,5.0
+TCK-00472,CUST-0145,2026-04-27 00:00,Sync errors,Bulk editing has been timing out for a few of us this morning. Not sure if this is expected.,technical_issue,low,,pending,
+TCK-00473,CUST-0146,2026-07-12 00:00,Setup question,Following up on this: How do we get our whole team added with the right permissions?,onboarding,low,20.9,resolved,4.0
+TCK-00474,CUST-0146,2026-06-20 00:00,Export issue,"Not a big deal most days, just an occasional annoyance.",bug,high,,pending,
+TCK-00475,CUST-0147,2026-05-03 00:00,Locked out of account,Hoping you can help: Two of our admins should have edit access to search but only has view rights. Appreciate the help.,account_access,low,,pending,
+TCK-00476,CUST-0147,2026-06-24 00:00,Question about invoice,"Hello, Trying to understand the refund policy — is it different for annual vs monthly plans? Appreciate the help.",billing,urgent,3.0,resolved,5.0
+TCK-00477,CUST-0147,2026-06-27 00:00,Clarifying a feature,Hoping you can help: Just checking what happens if most of the account goes over the seat limit. Appreciate the help.,general_question,low,22.2,resolved,4.0
+TCK-00478,CUST-0148,2026-06-09 00:00,Getting started question,"Following up on this: Our support lead is still getting familiar with the admin console, any onboarding resources available? Happy to jump on a call if easier.",onboarding,medium,23.5,resolved,1.0
+TCK-00479,CUST-0148,2026-05-19 00:00,Question about invoice,Can we get an itemized invoice for this month? just me so far needs it for expense reporting. Appreciate the help.,billing,medium,,pending,
+TCK-00480,CUST-0148,2026-05-22 00:00,Small request,Would it be possible to add more customization to the admin console? No rush on this. Appreciate the help.,feature_request,low,48.3,resolved,5.0
+TCK-00481,CUST-0148,2026-05-09 00:00,Feature suggestion,Quick one — Just a thought — an export option directly from the collaboration workspace would be handy. Not sure if this is expected.,feature_request,medium,7.7,resolved,3.0
+TCK-00482,CUST-0148,2026-06-12 00:00,Small request,"Not urgent, but it'd help a lot if the mobile app supported bulk actions. Appreciate the help.",feature_request,low,12.9,resolved,5.0
+TCK-00483,CUST-0148,2026-07-05 00:00,Billing discrepancy,"Hoping you can help: We were charged twice for the calendar sync since the latest update, could you check our invoice? Appreciate the help.",billing,high,2.3,resolved,4.0
+TCK-00484,CUST-0149,2026-05-03 00:00,Would be nice to have,Hoping you can help: Our support lead would love to see keyboard shortcuts added to data export. Not sure if this is expected.,feature_request,high,2.4,resolved,1.0
+TCK-00485,CUST-0149,2026-04-25 00:00,Help setting up,How do we get most of the account added with the right permissions?,onboarding,low,10.3,resolved,4.0
+TCK-00486,CUST-0150,2026-06-07 00:00,General inquiry,"Hoping you can help: Not sure if this is expected behavior in the API or not, wanted to ask. Not sure if this is expected.",General_question,medium,8.1,resolved,3.0
+TCK-00487,CUST-0150,2026-05-07 00:00,Onboarding guidance,Hoping you can help: Is there a guide for connecting the mobile app to our existing tools?,onboarding,low,22.8,resolved,4.0
+TCK-00488,CUST-0150,2026-05-21 00:00,Login problem,"Might be nothing, but wanted to mention it just in case.",account_access,medium,,open,
+TCK-00489,CUST-0150,2026-04-24 00:00,Sync errors,Hoping you can help: Our whole team can't get the calendar sync to load properly every time we try. Not sure if this is expected.,technical_issue,medium,,pending,
+TCK-00490,CUST-0150,2026-06-14 00:00,Small request,"Quick one — Not urgent, but it'd help a lot if the Slack integration supported bulk actions. Not sure if this is expected.",feature_request,high,,open,
+TCK-00011,CUST-0004,2026-07-14 00:00,Refund policy question,"Hi team, We were charged twice for our plan since the latest update, could you check our invoice? Appreciate the help.",billing,medium,10.6,resolved,4.0
