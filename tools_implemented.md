@@ -19,15 +19,15 @@ A small check that the SDK and key work. It asks a billing yes/no, a tone choice
 ## 3. Ticket classification (`classify_tickets.py`)
 
 - Reads `support_tickets.csv` and puts each `message` into one of the categories in `categories.py`.
-- Writes `tickets_categorized.csv`, which adds the `problem_impact`, `problem_impact_conf`, `skipped` and `error` columns.
+- Writes `tickets_categorized.csv`, which adds the `problem_impact`, `problem_impact_conf`, `urgency_score`, `skipped` and `error` columns.
 - Writes `review.csv`, listing tickets with confidence below 0.6.
 - Retries failed calls up to 4 times. A row that still fails is recorded in the `error` column and the run carries on.
 - Options: `--limit N` for a trial run, plus `--input`, `--output` and `--review`.
 
 ## 4. Feedback classification (`classify_feedback.py`)
 
-- Reads `customer_feedback.csv`, puts each `feedback_text` into one of 15 themes, and asks whether it is a complaint.
-- Writes `feedback_categorized.csv`, which adds the theme, its confidence, the second-best theme, `is_complaint_prob` and `is_complaint_noul`.
+- Reads `customer_feedback.csv`, puts each `feedback_text` into one of 15 themes, and asks whether it is a complaint and its urgency.
+- Writes `feedback_categorized.csv`, which adds the theme, its confidence, the second-best theme, `is_complaint_prob`, `is_complaint_noul`, and `urgency_score`.
 - Writes `feedback_review.csv`, listing rows with confidence below 0.6 or where the top two themes are within 0.15 of each other.
 - Sends 8 requests at a time, with retries.
 

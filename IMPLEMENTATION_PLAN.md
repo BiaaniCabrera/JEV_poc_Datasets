@@ -1,6 +1,6 @@
 # Implementation Plan: JEV Ticket and Feedback Categorization
 
-Last updated: 2026-10-06. Task checklist: [TASKS.md](TASKS.md).
+Last updated: 2026-10-07. Task checklist: [TASKS.md](TASKS.md).
 
 ## Goal
 
@@ -9,7 +9,8 @@ Categorize every support ticket and every piece of customer feedback automatical
 ## Where we are
 
 - The proof of concept now runs on the **real model** (`jev-1.13.0`). The earlier version used a local imitation of the SDK that applied keyword rules. It was moved to `_typesafe_sdk_mock/`, and its outputs to `old_heuristic_outputs/`.
-- Full runs are done: 491 tickets and 218 feedback rows, with 0 errors. See [categorization_report.md](categorization_report.md).
+- Full runs are done: 491 tickets and 218 feedback rows, with 0 errors. All three question types are in use: `Choice` (category or theme), `Noul` (complaint, feedback only) and `Score` (urgency). See [categorization_report.md](categorization_report.md).
+- If a run fails with `403 … not allowed by policy`, the request was blocked on the network side (VPN, company network or sandboxed terminal), not by TypeSafe. Run it from a normal terminal.
 - The ticket categories are fixed at 9: Interface error, Billing, Access and permission, Feature request, API, Data handling, Calendar synchronization, Notifications, and Other as the fallback.
 - Decided: results are **not** compared against the original `category` column or the star ratings.
 
@@ -23,12 +24,13 @@ Categorize every support ticket and every piece of customer feedback automatical
 6. Set the 9 ticket categories in `categories.py`.
 7. Remove the comparisons against the original category column and the star ratings.
 8. Run both files in full and write the report.
+9. Add urgency (`Score`) to both scripts and re-run everything.
 
 ## Phase 2: Check result quality
 
-1. **Review the low-confidence lists.** Go through `review.csv` (39 tickets) and `feedback_review.csv` (7 rows), correct the label where the model is wrong, and note recurring mistakes.
+1. **Review the low-confidence lists.** Go through `review.csv` (40 tickets) and `feedback_review.csv` (7 rows), correct the label where the model is wrong, and note recurring mistakes.
 2. **Look at "Other" (121 tickets, 25%).** Most are vague messages or questions about plans and seat limits, which is expected. Decide whether any repeated topic should get its own category or a clearer description. Candidates seen so far: Slack integration, the mobile app, the collaboration workspace.
-3. **Look at Calendar synchronization.** It has the lowest average confidence of any category (0.83). Check whether its description overlaps with Interface error or Data handling.
+3. **Look at Calendar synchronization.** It has the lowest average confidence of any category (0.82). Check whether its description overlaps with Interface error or Data handling.
 4. **Tune descriptions, not code.** Any change goes in `categories.py`. Re-run a trial with `--limit 40` before re-running everything.
 
 ## Phase 3: Make it repeatable

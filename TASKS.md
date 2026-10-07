@@ -19,13 +19,18 @@ Crossed-out tasks are done. Details for each phase are in [IMPLEMENTATION_PLAN.m
 - [x] ~~Add retries to the ticket script and re-run the 2 failed tickets~~
 - [x] ~~Rewrite `categorization_report.md` and `tools_implemented.md`~~
 - [x] ~~Write the implementation plan and this task list~~
+- [x] ~~Push the project to GitHub~~
+- [x] ~~Add urgency (`Score`) to tickets and feedback~~
+- [x] ~~Restore outputs overwritten by a blocked run (403 "not allowed by policy")~~
+- [x] ~~Re-run all tickets and feedback with all three question types (0 errors)~~
 
 ## Phase 2: Check result quality
 
-- [ ] Review the 39 tickets in `review.csv`
+- [ ] Review the 40 tickets in `review.csv`
 - [ ] Review the 7 rows in `feedback_review.csv`
 - [ ] Go through the 121 "Other" tickets and decide whether any topic needs its own category
-- [ ] Check the Calendar synchronization description (lowest confidence, 0.83)
+- [ ] Check the Calendar synchronization description (lowest confidence, 0.82)
+- [ ] Spot-check urgency scores, especially the 87 tickets rated "today"
 - [ ] If descriptions change: run a trial with `--limit 40`, then re-run everything
 
 ## Phase 3: Make it repeatable

@@ -10,7 +10,7 @@ import asyncio
 import csv
 from collections import Counter, defaultdict
 
-from typesafe_sdk import AsyncTypeSafeClient, Choice, Noul, RetryPolicy
+from typesafe_sdk import AsyncTypeSafeClient, Choice, Noul, Score, RetryPolicy
 
 from categories import FEEDBACK_CATEGORIES, FEEDBACK_INSTRUCTIONS
 
@@ -23,6 +23,10 @@ QUESTIONS = {
     "is_complaint": Noul(
         instructions="Is this customer feedback expressing a complaint, frustration, or negative issue?"
     ),
+    "urgency": Score(
+        instructions="How urgent is this feedback?",
+        criteria=["can wait", "this week", "today"],
+    ),
 }
 
 NEW_COLUMNS = [
@@ -32,6 +36,7 @@ NEW_COLUMNS = [
     "runner_up_conf",
     "is_complaint_prob",
     "is_complaint_noul",
+    "urgency_score",
     "skipped",
     "error",
 ]
@@ -76,6 +81,8 @@ async def classify_row(client: AsyncTypeSafeClient, sem: asyncio.Semaphore, row:
     noul_prob = response.nouls["is_complaint"].noul
     row["is_complaint_prob"] = round(noul_prob, 3)
     row["is_complaint_noul"] = str(noul_prob >= 0.5)
+
+    row["urgency_score"] = round(response.scores["urgency"].score, 3)
 
 
 async def classify_all(rows: list[dict], concurrency: int) -> None:

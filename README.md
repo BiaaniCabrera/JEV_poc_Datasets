@@ -24,6 +24,6 @@ python3 classify_feedback.py --limit 20
 - [IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md): status and next phases
 - [TASKS.md](TASKS.md): checklist
 
-Question types used so far: `Choice` (ticket categories and feedback themes) and `Noul` (feedback complaints). `Score` (urgency) has only been tried in `jev_test.py`.
+Question types used: `Choice` (ticket categories and feedback themes), `Noul` (feedback complaints) and `Score` (urgency, for both tickets and feedback).
 
 `old_heuristic_outputs/` and `_typesafe_sdk_mock/` are kept for reference only. They come from an earlier version that used keyword rules instead of the model.

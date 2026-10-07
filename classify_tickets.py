@@ -9,17 +9,24 @@ import argparse
 import csv
 from collections import Counter, defaultdict
 
-from typesafe_sdk import TypeSafeClient, Choice, RetryPolicy
+from typesafe_sdk import TypeSafeClient, Choice, Score, RetryPolicy
 
 from categories import CATEGORIES, INSTRUCTIONS, OUTPUT_COLUMN
 
 LOW_CONFIDENCE = 0.6   # below this -> review
 CLOSE_CALL_GAP = 0.15  # top minus runner-up below this -> review
 
-QUESTIONS = {OUTPUT_COLUMN: Choice(instructions=INSTRUCTIONS, criteria=CATEGORIES)}
+QUESTIONS = {
+    OUTPUT_COLUMN: Choice(instructions=INSTRUCTIONS, criteria=CATEGORIES),
+    "urgency": Score(
+        instructions="How urgent is this ticket?",
+        criteria=["can wait", "this week", "today"],
+    ),
+}
 NEW_COLUMNS = [
     OUTPUT_COLUMN,
     f"{OUTPUT_COLUMN}_conf",
+    "urgency_score",
     "skipped",
     "error",
 ]
@@ -50,6 +57,7 @@ def classify_row(client: TypeSafeClient, row: dict) -> None:
     ans = response.choices[OUTPUT_COLUMN]
     row[OUTPUT_COLUMN] = ans.choice
     row[f"{OUTPUT_COLUMN}_conf"] = round(ans.confidence, 3)
+    row["urgency_score"] = round(response.scores["urgency"].score, 3)
 
 
 def classify_all(rows: list[dict]) -> None:
